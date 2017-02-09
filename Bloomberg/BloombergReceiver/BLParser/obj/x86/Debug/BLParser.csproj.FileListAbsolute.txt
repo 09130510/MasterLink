@@ -1,0 +1,9 @@
+E:\SVNProjects\trunk\Bloomberg\BloombergReceiver\BLParser\bin\x86\Debug\BLParser.dll
+E:\SVNProjects\trunk\Bloomberg\BloombergReceiver\BLParser\bin\x86\Debug\BLParser.pdb
+E:\SVNProjects\trunk\Bloomberg\BloombergReceiver\BLParser\bin\x86\Debug\Bloomberglp.Blpapi.dll
+E:\SVNProjects\trunk\Bloomberg\BloombergReceiver\BLParser\bin\x86\Debug\clrzmq.dll
+E:\SVNProjects\trunk\Bloomberg\BloombergReceiver\BLParser\bin\x86\Debug\Bloomberglp.Blpapi.xml
+E:\SVNProjects\trunk\Bloomberg\BloombergReceiver\BLParser\bin\x86\Debug\clrzmq.pdb
+E:\SVNProjects\trunk\Bloomberg\BloombergReceiver\BLParser\bin\x86\Debug\clrzmq.xml
+E:\SVNProjects\trunk\Bloomberg\BloombergReceiver\BLParser\obj\x86\Debug\BLParser.dll
+E:\SVNProjects\trunk\Bloomberg\BloombergReceiver\BLParser\obj\x86\Debug\BLParser.pdb
