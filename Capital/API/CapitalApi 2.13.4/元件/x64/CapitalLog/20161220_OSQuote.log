@@ -1,0 +1,13 @@
+-----------------------------------------------------------------
+[1848] 2016/12/20 10:15:17.792 Connect Server: FORT03.capital.com.tw 443
+[1848] 2016/12/20 10:15:18.314 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[1848] 2016/12/20 10:15:18.351 OnConnect ( 3001 , 0 ) 
+[1848] 2016/12/20 10:15:20.565 SK_SUBJECT_CONNECTION_DISCONNECT¡ACode: 10004
+[1848] 2016/12/20 10:15:20.567 OnConnect ( 3002 , 10004 ) 
+[1848] 2016/12/20 10:15:21.687 Connect Server: FORT03.capital.com.tw 443
+[1848] 2016/12/20 10:15:21.838 SK_SUBJECT_CONNECTION_CONNECTED¡ACode: 0
+[1848] 2016/12/20 10:15:21.849 OnConnect ( 3001 , 0 ) 
+[1848] 2016/12/20 10:15:23.944 SKOSQuoteLib_RequestOverseaProducts()
+[1848] 2016/12/20 10:17:58.115 SK_SUBJECT_CONNECTION_DISCONNECT¡ACode: 10054
+[1848] 2016/12/20 10:17:58.118 OnConnect ( 3002 , 10054 ) 
+[1848] 2016/12/20 17:27:19.364 -----------------------------------------------------------------

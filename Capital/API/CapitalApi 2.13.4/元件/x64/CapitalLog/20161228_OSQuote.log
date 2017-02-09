@@ -1,0 +1,25 @@
+-----------------------------------------------------------------
+[9376] 2016/12/28 10:05:55.576 Connect Server: FORT03.capital.com.tw 443
+[9376] 2016/12/28 10:05:55.963 SK_SUBJECT_CONNECTION_CONNECTED，Code: 0
+[9376] 2016/12/28 10:05:55.979 OnConnect ( 3001 , 0 ) 
+[9376] 2016/12/28 10:06:01.170 SKOSQuoteLib_RequestOverseaProducts()
+[9376] 2016/12/28 10:07:30.206 -----------------------------------------------------------------
+[5512] 2016/12/28 11:42:43.017 Connect Server: FORT03.capital.com.tw 443
+[5512] 2016/12/28 11:42:43.406 SK_SUBJECT_CONNECTION_CONNECTED，Code: 0
+[5512] 2016/12/28 11:42:43.415 OnConnect ( 3001 , 0 ) 
+[5512] 2016/12/28 11:42:45.951 SKOSQuoteLib_RequestOverseaProducts()
+[5512] 2016/12/28 11:45:19.691 SK_SUBJECT_CONNECTION_DISCONNECT，Code: 10054
+[5512] 2016/12/28 11:45:19.695 OnConnect ( 3002 , 10054 ) 
+[9048] 2016/12/28 17:12:57.471 Connect Server: FORT03.capital.com.tw 443
+[9048] 2016/12/28 17:12:57.621 SK_SUBJECT_CONNECTION_CONNECTED，Code: 0
+[9048] 2016/12/28 17:12:57.641 OnConnect ( 3001 , 0 ) 
+[9048] 2016/12/28 17:13:01.521 SKOSQuoteLib_RequestOverseaProducts()
+[9048] 2016/12/28 17:14:21.510 SKOSQuoteLib_RequestStocks (-1,OSE,JTI1603)
+[9048] 2016/12/28 17:14:21.520 SKOSQuoteLib_RequestStocks 查無商品代號：[OSE,JTI1603]
+[9048] 2016/12/28 17:14:39.921 SKOSQuoteLib_RequestStocks (-1,OSE,JTI1606)
+[9048] 2016/12/28 17:14:39.931 SKOSQuoteLib_RequestStocks 查無商品代號：[OSE,JTI1606]
+[9048] 2016/12/28 17:15:18.681 SKOSQuoteLib_RequestStocks (-1,OSE,JTI1703)
+[9048] 2016/12/28 17:15:45.510 SKOSQuoteLib_RequestStocks (-1,OSE,JTI1703#OSE,JTI1706)
+[9048] 2016/12/28 17:15:58.429 SKOSQuoteLib_RequestStocks (-1,OSE,JTI1703#OSE,JTI1709#)
+[9048] 2016/12/28 17:16:22.895 SKOSQuoteLib_RequestStocks (-1,OSE,JTI1703#OSE,JTI1706#OSE,JTI1709#)
+[9048] 2016/12/28 17:16:39.822 -----------------------------------------------------------------
