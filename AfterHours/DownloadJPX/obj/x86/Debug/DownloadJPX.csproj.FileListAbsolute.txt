@@ -1,0 +1,9 @@
+D:\Projects\JPXSettlePrice\DownloadJPX\bin\Debug\DownloadJPX.exe
+D:\Projects\JPXSettlePrice\DownloadJPX\bin\Debug\DownloadJPX.pdb
+D:\Projects\JPXSettlePrice\DownloadJPX\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Projects\JPXSettlePrice\DownloadJPX\obj\x86\Debug\DownloadJPX.Form1.resources
+D:\Projects\JPXSettlePrice\DownloadJPX\obj\x86\Debug\DownloadJPX.Properties.Resources.resources
+D:\Projects\JPXSettlePrice\DownloadJPX\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Projects\JPXSettlePrice\DownloadJPX\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Projects\JPXSettlePrice\DownloadJPX\obj\x86\Debug\DownloadJPX.exe
+D:\Projects\JPXSettlePrice\DownloadJPX\obj\x86\Debug\DownloadJPX.pdb
