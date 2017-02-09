@@ -1,6 +1,0 @@
-E:\SVNProjects\trunk\Bloomberg\BloombergReceiver\BLSubscriber\bin\x86\Release\BLSubscriber.dll
-E:\SVNProjects\trunk\Bloomberg\BloombergReceiver\BLSubscriber\bin\x86\Release\BLSubscriber.pdb
-E:\SVNProjects\trunk\Bloomberg\BloombergReceiver\BLSubscriber\bin\x86\Release\Bloomberglp.Blpapi.dll
-E:\SVNProjects\trunk\Bloomberg\BloombergReceiver\BLSubscriber\bin\x86\Release\Bloomberglp.Blpapi.xml
-E:\SVNProjects\trunk\Bloomberg\BloombergReceiver\BLSubscriber\obj\x86\Release\BLSubscriber.dll
-E:\SVNProjects\trunk\Bloomberg\BloombergReceiver\BLSubscriber\obj\x86\Release\BLSubscriber.pdb
