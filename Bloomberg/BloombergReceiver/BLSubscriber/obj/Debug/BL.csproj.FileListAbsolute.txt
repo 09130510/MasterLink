@@ -1,0 +1,10 @@
+D:\Projects\Bloomberg\BloombergReceiver\BL\bin\Debug\BL.dll
+D:\Projects\Bloomberg\BloombergReceiver\BL\bin\Debug\BL.pdb
+D:\Projects\Bloomberg\BloombergReceiver\BL\bin\Debug\Bloomberglp.Blpapi.dll
+D:\Projects\Bloomberg\BloombergReceiver\BL\bin\Debug\NuComponent.dll
+D:\Projects\Bloomberg\BloombergReceiver\BL\bin\Debug\Bloomberglp.Blpapi.xml
+D:\Projects\Bloomberg\BloombergReceiver\BL\bin\Debug\NuComponent.pdb
+D:\Projects\Bloomberg\BloombergReceiver\BL\bin\Debug\NuComponent.xml
+D:\Projects\Bloomberg\BloombergReceiver\BL\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Bloomberg\BloombergReceiver\BL\obj\Debug\BL.dll
+D:\Projects\Bloomberg\BloombergReceiver\BL\obj\Debug\BL.pdb
