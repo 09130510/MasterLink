@@ -1,0 +1,13 @@
+E:\SVNProjects\trunk\Bloomberg\BloombergReceiver\BLRTD\bin\x86\Debug\BloombergRTD.dll
+E:\SVNProjects\trunk\Bloomberg\BloombergReceiver\BLRTD\bin\x86\Debug\BloombergRTD.pdb
+E:\SVNProjects\trunk\Bloomberg\BloombergReceiver\BLRTD\bin\x86\Debug\Bloomberglp.Blpapi.dll
+E:\SVNProjects\trunk\Bloomberg\BloombergReceiver\BLRTD\bin\x86\Debug\BLParser.dll
+E:\SVNProjects\trunk\Bloomberg\BloombergReceiver\BLRTD\bin\x86\Debug\clrzmq.dll
+E:\SVNProjects\trunk\Bloomberg\BloombergReceiver\BLRTD\bin\x86\Debug\BLParser.pdb
+E:\SVNProjects\trunk\Bloomberg\BloombergReceiver\BLRTD\bin\x86\Debug\Bloomberglp.Blpapi.xml
+E:\SVNProjects\trunk\Bloomberg\BloombergReceiver\BLRTD\bin\x86\Debug\clrzmq.pdb
+E:\SVNProjects\trunk\Bloomberg\BloombergReceiver\BLRTD\bin\x86\Debug\clrzmq.xml
+E:\SVNProjects\trunk\Bloomberg\BloombergReceiver\BLRTD\obj\x86\Debug\BLPRTD.csprojResolveAssemblyReference.cache
+E:\SVNProjects\trunk\Bloomberg\BloombergReceiver\BLRTD\obj\x86\Debug\BLPRTD.csproj.ResolveComReference.cache
+E:\SVNProjects\trunk\Bloomberg\BloombergReceiver\BLRTD\obj\x86\Debug\BloombergRTD.dll
+E:\SVNProjects\trunk\Bloomberg\BloombergReceiver\BLRTD\obj\x86\Debug\BloombergRTD.pdb

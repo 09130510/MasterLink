@@ -1,0 +1,6 @@
+D:\Projects\Bloomberg\BloombergReceiver\BLRTD\bin\Debug\BloombergRTD.dll
+D:\Projects\Bloomberg\BloombergReceiver\BLRTD\bin\Debug\BloombergRTD.pdb
+D:\Projects\Bloomberg\BloombergReceiver\BLRTD\bin\Debug\System.Linq.Dynamic.dll
+D:\Projects\Bloomberg\BloombergReceiver\BLRTD\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Bloomberg\BloombergReceiver\BLRTD\obj\Debug\BloombergRTD.dll
+D:\Projects\Bloomberg\BloombergReceiver\BLRTD\obj\Debug\BloombergRTD.pdb
