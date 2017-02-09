@@ -1,0 +1,17 @@
+D:\Projects\Bloomberg\BloombergReceiver\BLPTester\bin\Debug\BLPTester.exe.config
+D:\Projects\Bloomberg\BloombergReceiver\BLPTester\bin\Debug\BLPTester.exe
+D:\Projects\Bloomberg\BloombergReceiver\BLPTester\bin\Debug\BLPTester.pdb
+D:\Projects\Bloomberg\BloombergReceiver\BLPTester\bin\Debug\BLParser.dll
+D:\Projects\Bloomberg\BloombergReceiver\BLPTester\bin\Debug\NuComponent.dll
+D:\Projects\Bloomberg\BloombergReceiver\BLPTester\bin\Debug\Bloomberglp.Blpapi.dll
+D:\Projects\Bloomberg\BloombergReceiver\BLPTester\bin\Debug\BLParser.pdb
+D:\Projects\Bloomberg\BloombergReceiver\BLPTester\bin\Debug\NuComponent.pdb
+D:\Projects\Bloomberg\BloombergReceiver\BLPTester\bin\Debug\NuComponent.xml
+D:\Projects\Bloomberg\BloombergReceiver\BLPTester\bin\Debug\Bloomberglp.Blpapi.xml
+D:\Projects\Bloomberg\BloombergReceiver\BLPTester\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Projects\Bloomberg\BloombergReceiver\BLPTester\obj\x86\Debug\BLPTester.Form1.resources
+D:\Projects\Bloomberg\BloombergReceiver\BLPTester\obj\x86\Debug\BLPTester.Properties.Resources.resources
+D:\Projects\Bloomberg\BloombergReceiver\BLPTester\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Projects\Bloomberg\BloombergReceiver\BLPTester\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Projects\Bloomberg\BloombergReceiver\BLPTester\obj\x86\Debug\BLPTester.exe
+D:\Projects\Bloomberg\BloombergReceiver\BLPTester\obj\x86\Debug\BLPTester.pdb
