@@ -1,0 +1,45 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FTPTandem.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="FtpIP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">192.168.6.75</Value>
+    </Setting>
+    <Setting Name="UserName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MLS.OP</Value>
+    </Setting>
+    <Setting Name="Password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CMAKE</Value>
+    </Setting>
+    <Setting Name="FileName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CLOSING</Value>
+    </Setting>
+    <Setting Name="FTPDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">$GFU.FFTEMP</Value>
+    </Setting>
+    <Setting Name="SQL_Server" Type="System.String" Scope="User">
+      <Value Profile="(Default)">192.168.6.37</Value>
+    </Setting>
+    <Setting Name="SQL_DB" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MM</Value>
+    </Setting>
+    <Setting Name="SQL_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">etfUser</Value>
+    </Setting>
+    <Setting Name="SQL_Password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1234</Value>
+    </Setting>
+    <Setting Name="EmailTo" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;jackiehung@masterlink.com.tw&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="Url" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://www.jpx.co.jp</Value>
+    </Setting>
+    <Setting Name="DownloadPage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">/english/markets/derivatives/jnet-derivative/index.html</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
