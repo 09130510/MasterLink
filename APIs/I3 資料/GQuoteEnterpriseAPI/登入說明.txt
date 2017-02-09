@@ -1,0 +1,1 @@
+axGQuoteOpr1.DoConnect(@"C:\ML192.168.5.116.ini", "GQUOTE_ENTERPRISE", "OptRisk", "ml2856");
