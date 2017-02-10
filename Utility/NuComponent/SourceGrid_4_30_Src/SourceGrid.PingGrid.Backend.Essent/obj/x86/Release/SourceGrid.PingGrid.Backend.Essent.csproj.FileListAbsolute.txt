@@ -1,0 +1,24 @@
+C:\Documents and Settings\jess.tsai\My Documents\C# SAMPLE\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.Essent\bin\Release\SourceGrid.PingGrid.Backend.Essent.dll
+C:\Documents and Settings\jess.tsai\My Documents\C# SAMPLE\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.Essent\bin\Release\Esent.Collections.dll
+C:\Documents and Settings\jess.tsai\My Documents\C# SAMPLE\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.Essent\bin\Release\SourceGrid.dll
+C:\Documents and Settings\jess.tsai\My Documents\C# SAMPLE\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.Essent\bin\Release\Esent.Interop.dll
+C:\Documents and Settings\jess.tsai\My Documents\C# SAMPLE\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.Essent\bin\Release\SourceGrid.xml
+C:\Documents and Settings\jess.tsai\My Documents\C# SAMPLE\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.Essent\bin\Release\Esent.Collections.xml
+C:\Documents and Settings\jess.tsai\My Documents\C# SAMPLE\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.Essent\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\jess.tsai\My Documents\C# SAMPLE\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.Essent\obj\x86\Release\SourceGrid.PingGrid.Backend.Essent.dll
+D:\120D\Projects\MktSys\MRS\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.Essent\bin\Release\SourceGrid.PingGrid.Backend.Essent.dll
+D:\120D\Projects\MktSys\MRS\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.Essent\bin\Release\Esent.Collections.dll
+D:\120D\Projects\MktSys\MRS\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.Essent\bin\Release\SourceGrid.dll
+D:\120D\Projects\MktSys\MRS\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.Essent\bin\Release\Esent.Interop.dll
+D:\120D\Projects\MktSys\MRS\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.Essent\bin\Release\SourceGrid.xml
+D:\120D\Projects\MktSys\MRS\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.Essent\bin\Release\Esent.Collections.xml
+D:\120D\Projects\MktSys\MRS\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.Essent\obj\x86\Release\ResolveAssemblyReference.cache
+D:\120D\Projects\MktSys\MRS\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.Essent\obj\x86\Release\SourceGrid.PingGrid.Backend.Essent.dll
+D:\Projects\MRS\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.Essent\bin\Release\SourceGrid.PingGrid.Backend.Essent.dll
+D:\Projects\MRS\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.Essent\bin\Release\Esent.Collections.dll
+D:\Projects\MRS\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.Essent\bin\Release\SourceGrid.dll
+D:\Projects\MRS\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.Essent\bin\Release\Esent.Interop.dll
+D:\Projects\MRS\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.Essent\bin\Release\SourceGrid.xml
+D:\Projects\MRS\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.Essent\bin\Release\Esent.Collections.xml
+D:\Projects\MRS\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.Essent\obj\x86\Release\ResolveAssemblyReference.cache
+D:\Projects\MRS\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.Essent\obj\x86\Release\SourceGrid.PingGrid.Backend.Essent.dll
