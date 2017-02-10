@@ -1,0 +1,210 @@
+Buy side CompID: MASTERLNK
+Sell side CompID: SPSA
+IP: 10.55.9.150
+Port: 12000
+
+
+FIX sample 以下請參考
+
+Tag 1= buy side 在永豐開的帳號
+
+Buy side 下新單到 Sinopac
+(
+8=FIX.4.2                 *BeginString
+9=199                     *BodyLength
+35=D                      *MsgType
+49=MASTERLNK              *SenderCompID
+56=SPSA                   *TargetCompID
+34=155                    *MsgSeqNum
+50=MASTERLNK              SenderSubID
+57=SPSA                   TargetSubID
+52=20140901-01:49:35.023  *SendingTime
+11=4                      *ClOrdID
+1=71402150XXXX            Account
+21=1                      *HandlInst 
+                          (1:AutomatedExecutionNoIntervention)
+                          (2:AutomatedExecutionInterventionOK)
+                          (3:ManualOrder)
+100=SEHK                  ExDestination
+207=SEHK                  SecurityExchange
+55=2827                   *Symbol
+22=5                      IDSource
+54=1                      *Side
+                          (1:Buy)
+                          (2:Sell)
+60=20140901-01:49:35.023  *TransactTime
+38=200                    OrderQty
+40=2                      *OrderType
+                          (1:Market)
+                          (2:Limit)
+                          (3:Stop)
+                          (4:StopLimit)
+                          (5:MarketOnClose)
+44=24.65                  Price 
+15=HKD                    Currency 
+47=A                      Rule80A
+211=0                     PegDifference
+59=0                      TimeInForce
+                          (0:Day)
+                          (1:GoodTillCance)  
+                          (2:AtTheOpening)
+                          (3:ImmediateOrCancel)
+                          (4:FillOrKill)
+                          (5:GoodTillCrossing)
+                          (6:GoodTillDay)
+10=252                    *CheckSum                    
+)
+  
+Sinopac 回報buyside “NEW”
+(
+8=FIX.4.2                 *BeginString
+9=285                     *BodyLength
+35=8                      *MsgType
+34=155                    *MsgSeqNum
+49=SPSA                   *SenderCompID
+50=NYSEEMS                SenderSubID
+52=20140901-01:49:29.548  *SendingTime
+56=MASTERLNK              *TargetCompID
+1=71402150XXXX            Account
+6=0                       *AvgPx
+11=4                      ClOrdID
+14=0                      *CumQty
+15=HKD                    Currency
+17=20140901-01:49:29_10   *ExecID
+19=20140901-01:49:29_10   ExecRefID
+20=0                      *ExecTransType
+                          (0:New)
+                          (1:Cancel)
+                          (2:Correct)
+                          (3:Status)
+30=HK                     LastMkt
+31=0                      LastPx
+32=0                      LastShares
+37=140901000295           *OrderID
+38=200                    OrderQty
+39=0                      *OrdStatus
+                          (0:New)
+                          (1:PartiallyFilled)
+                          (2:Filled)
+                          (3:DoneForDay)
+                          (4:Canceled)
+                          (5:Replaced)
+                          (6:PendingCancel)
+                          (7:Stopped)
+                          (8:Rejected)
+                          (9:Suspended)
+                          (A:PendingNew)
+                          (B:Calculated)
+                          (C:Expired)
+                          (D:AcceptedForBidding)
+                          (E:PendingReplace)
+40=2                      OrdType
+                          (1:Market)
+                          (2:Limit)
+                          (3:Stop)
+                          (4:StopLimit)
+41=4                      OrigClOrdID
+44=24.65                  Price
+54=1                      *Side
+                          (1:Buy)
+                          (2:Sell)
+55=2827                   *Symbol
+58= NEW , New             Text
+60=20140901-01:49:29      TransactTime
+150=0                     *ExecType
+                          (0:New)
+                          (1:PartialFill)
+                          (2:Fill)
+                          (3:DoneForDay)
+                          (4:Canceled)
+                          (5:Replaced)
+                          (6:PendingCancel)
+                          (7:Stopped)
+                          (8:Rejected)
+                          (9:Suspended)
+                          (A:PendingNew)
+                          (B:Calculated)
+                          (C:Expired)
+                          (D:Restated)
+                          (E:PendingReplace)
+151=200                   *LeavesQty
+207=HK                    SecurityExchange
+10=123                    *CheckSum
+)
+  
+Sinopac 給成交回報buyside
+(
+8=FIX.4.2                 *BeginString
+9=305                     *BodyLength
+35=8                      *MsgType
+34=156                    *MsgSeqNum
+49=SPSA                   *SenderCompID    
+50=NYSEEMS                SenderSubID
+52=20140901-01:49:30.215  *SendingTime
+56=MASTERLNK              *TargetCompID
+1=71402150XXXX            Account
+6=24.65                   *AvgPx
+11=4                      ClOrdID
+14=200                    *CumQty
+15=HKD                    Currency
+17=B2827000000001         *ExecID
+19=B2827000000001         ExecRefID
+20=0                      *ExecTransTyoe
+                          (0:New)
+                          (1:Cancel)
+                          (2:Correct)
+                          (3:Status)
+30=HK                     LastMkt
+31=24.650000000           LastPx
+32=200.000000000          LastShares
+37=140901000295           *OrderID
+38=200                    OrderQty
+39=2                      *OrderStatus
+                          (0:New)
+                          (1:PartiallyFilled)
+                          (2:Filled)
+                          (3:DoneForDay)
+                          (4:Canceled)
+                          (5:Replaced)
+                          (6:PendingCancel)
+                          (7:Stopped)
+                          (8:Rejected)
+                          (9:Suspended)
+                          (A:PendingNew)
+                          (B:Calculated)
+                          (C:Expired)
+                          (D:AcceptedForBidding)
+                          (E:PendingReplace)
+40=2                      OrdType
+                          (1:Market)
+                          (2:Limit)
+                          (3:Stop)
+                          (4:StopLimit)
+41=4                      OrigClOrdID
+44=24.65                  Price
+54=1                      *Side
+                          (1:Buy)
+                          (2:Sell)
+55=2827                   *Symbol
+58=Fill:Filled 200        Text
+60=20140901-01:49:29      TransactTime
+150=2                     *ExecType
+                          (0:New)
+                          (1:PartialFill)
+                          (2:Fill)
+                          (3:DoneForDay)
+                          (4:Canceled)
+                          (5:Replaced)
+                          (6:PendingCancel)
+                          (7:Stopped)
+                          (8:Rejected)
+                          (9:Suspended)
+                          (A:PendingNew)
+                          (B:Calculated)
+                          (C:Expired)
+                          (D:Restated)
+                          (E:PendingReplace)
+151=0                     *LeavesQty
+207=HK                    SecurityExchange
+10=239                    *CheckSum
+)

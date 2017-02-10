@@ -1,0 +1,6 @@
+Buy side CompID: MASTERLNK
+Sell side CompID: SPSA
+IP: 10.55.9.150 (NAT 後為 210.245.181.126)
+Port: 12000
+
+Tag 1 請帶上714023400002
