@@ -1,0 +1,30 @@
+C:\Documents and Settings\jess.tsai\My Documents\C# SAMPLE\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.NHibernate\bin\Debug\SourceGrid.PingGrid.Backend.NHibernate.dll
+C:\Documents and Settings\jess.tsai\My Documents\C# SAMPLE\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.NHibernate\bin\Debug\SourceGrid.PingGrid.Backend.NHibernate.pdb
+C:\Documents and Settings\jess.tsai\My Documents\C# SAMPLE\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.NHibernate\bin\Debug\NHibernate.dll
+C:\Documents and Settings\jess.tsai\My Documents\C# SAMPLE\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.NHibernate\bin\Debug\SourceGrid.dll
+C:\Documents and Settings\jess.tsai\My Documents\C# SAMPLE\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.NHibernate\bin\Debug\log4net.dll
+C:\Documents and Settings\jess.tsai\My Documents\C# SAMPLE\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.NHibernate\bin\Debug\Antlr3.Runtime.dll
+C:\Documents and Settings\jess.tsai\My Documents\C# SAMPLE\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.NHibernate\bin\Debug\Iesi.Collections.dll
+C:\Documents and Settings\jess.tsai\My Documents\C# SAMPLE\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.NHibernate\bin\Debug\log4net.xml
+C:\Documents and Settings\jess.tsai\My Documents\C# SAMPLE\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.NHibernate\bin\Debug\Iesi.Collections.xml
+C:\Documents and Settings\jess.tsai\My Documents\C# SAMPLE\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.NHibernate\bin\Debug\NHibernate.xml
+C:\Documents and Settings\jess.tsai\My Documents\C# SAMPLE\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.NHibernate\bin\Debug\SourceGrid.pdb
+C:\Documents and Settings\jess.tsai\My Documents\C# SAMPLE\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.NHibernate\bin\Debug\SourceGrid.xml
+C:\Documents and Settings\jess.tsai\My Documents\C# SAMPLE\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.NHibernate\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jess.tsai\My Documents\C# SAMPLE\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.NHibernate\obj\x86\Debug\SourceGrid.PingGrid.Backend.NHibernate.dll
+C:\Documents and Settings\jess.tsai\My Documents\C# SAMPLE\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.NHibernate\obj\x86\Debug\SourceGrid.PingGrid.Backend.NHibernate.pdb
+D:\120D\Projects\MktSys\MRS\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.NHibernate\bin\Debug\SourceGrid.PingGrid.Backend.NHibernate.dll
+D:\120D\Projects\MktSys\MRS\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.NHibernate\bin\Debug\SourceGrid.PingGrid.Backend.NHibernate.pdb
+D:\120D\Projects\MktSys\MRS\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.NHibernate\bin\Debug\NHibernate.dll
+D:\120D\Projects\MktSys\MRS\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.NHibernate\bin\Debug\SourceGrid.dll
+D:\120D\Projects\MktSys\MRS\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.NHibernate\bin\Debug\log4net.dll
+D:\120D\Projects\MktSys\MRS\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.NHibernate\bin\Debug\Antlr3.Runtime.dll
+D:\120D\Projects\MktSys\MRS\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.NHibernate\bin\Debug\Iesi.Collections.dll
+D:\120D\Projects\MktSys\MRS\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.NHibernate\bin\Debug\log4net.xml
+D:\120D\Projects\MktSys\MRS\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.NHibernate\bin\Debug\Iesi.Collections.xml
+D:\120D\Projects\MktSys\MRS\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.NHibernate\bin\Debug\NHibernate.xml
+D:\120D\Projects\MktSys\MRS\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.NHibernate\bin\Debug\SourceGrid.pdb
+D:\120D\Projects\MktSys\MRS\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.NHibernate\bin\Debug\SourceGrid.xml
+D:\120D\Projects\MktSys\MRS\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.NHibernate\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\120D\Projects\MktSys\MRS\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.NHibernate\obj\x86\Debug\SourceGrid.PingGrid.Backend.NHibernate.dll
+D:\120D\Projects\MktSys\MRS\SourceGrid_4_30_src\SourceGrid_4_30_src\SourceGrid.PingGrid.Backend.NHibernate\obj\x86\Debug\SourceGrid.PingGrid.Backend.NHibernate.pdb
