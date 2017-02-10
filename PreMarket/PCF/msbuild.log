@@ -1,0 +1,743 @@
+已經開始建置於 2016/8/26 下午 03:47:42。
+節點 1 (Clean;Rebuild 目標) 上的專案 "E:\SVNProjects\trunk\PreMarket\PCF\PCF.sln"。
+以工具版本 "2.0" 建置。
+專案 "E:\SVNProjects\trunk\PreMarket\PCF\PCF.sln" 的檔案 "E:\SVNProjects\trunk\PreMarket\PCF\PCF.sln.metaproj" 中的目標 "ValidateSolutionConfiguration" (進入點):
+由於 false 條件，因此已略過工作 "Error"; (('$(CurrentSolutionConfigurationContents)' == '') and ('$(SkipInvalidConfigurations)' != 'true')) 評估為 (('<SolutionConfiguration>
+  <ProjectConfiguration Project="{3930FCFA-8D5C-44FE-8E5B-1CF0FE884C25}" AbsolutePath="E:\SVNProjects\trunk\PreMarket\PCF\PCF\PCFGetter.csproj" BuildProjectInSolution="False">Release|x86</ProjectConfiguration>
+  <ProjectConfiguration Project="{0F9B64B4-DDA6-45F1-9010-B60B8CE617D2}" AbsolutePath="E:\SVNProjects\trunk\PreMarket\PCF\..\..\Utility\PriceLib\PriceLib.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>' == '') and ('' != 'true'))。
+由於 false 條件，因此已略過工作 "Warning"; (('$(CurrentSolutionConfigurationContents)' == '') and ('$(SkipInvalidConfigurations)' == 'true')) 評估為 (('<SolutionConfiguration>
+  <ProjectConfiguration Project="{3930FCFA-8D5C-44FE-8E5B-1CF0FE884C25}" AbsolutePath="E:\SVNProjects\trunk\PreMarket\PCF\PCF\PCFGetter.csproj" BuildProjectInSolution="False">Release|x86</ProjectConfiguration>
+  <ProjectConfiguration Project="{0F9B64B4-DDA6-45F1-9010-B60B8CE617D2}" AbsolutePath="E:\SVNProjects\trunk\PreMarket\PCF\..\..\Utility\PriceLib\PriceLib.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>' == '') and ('' == 'true'))。
+正在使用組件 "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 中的 "Message" 工作。
+工作 "Message"
+  建置方案組態 "Release|Any CPU"。
+工作 "Message" 執行完成。
+專案 "PCF.sln" 中的目標 "ValidateSolutionConfiguration" 建置完成。
+專案 "E:\SVNProjects\trunk\PreMarket\PCF\PCF.sln" 的檔案 "E:\SVNProjects\trunk\PreMarket\PCF\PCF.sln.metaproj" 中的目標 "ValidateToolsVersions" (進入點):
+由於 false 條件，因此已略過工作 "Error"; ('$(MSBuildToolsVersion)' == '2.0' and ('$(ProjectToolsVersion)' != '2.0' and '$(ProjectToolsVersion)' != '')) 評估為 ('4.0' == '2.0' and ('' != '2.0' and '' != ''))。
+專案 "PCF.sln" 中的目標 "ValidateToolsVersions" 建置完成。
+專案 "E:\SVNProjects\trunk\PreMarket\PCF\PCF.sln" 的檔案 "E:\SVNProjects\trunk\PreMarket\PCF\PCF.sln.metaproj" 中的目標 "ValidateProjects" (進入點):
+由於 false 條件，因此已略過工作 "Message"; ( ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ) 評估為 ( ('Release' == 'Debug') and ('Any CPU' == 'Any CPU') )。
+工作 "Message"
+  在方案組態 "Release|Any CPU" 中未選取要進行建置的專案 "PCFGetter"。
+工作 "Message" 執行完成。
+由於 false 條件，因此已略過工作 "Message"; ( ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'x86') ) 評估為 ( ('Release' == 'Debug') and ('Any CPU' == 'x86') )。
+由於 false 條件，因此已略過工作 "Message"; ( ('$(Configuration)' == 'Release') and ('$(Platform)' == 'x86') ) 評估為 ( ('Release' == 'Release') and ('Any CPU' == 'x86') )。
+專案 "PCF.sln" 中的目標 "ValidateProjects" 建置完成。
+專案 "E:\SVNProjects\trunk\PreMarket\PCF\PCF.sln" 的檔案 "E:\SVNProjects\trunk\PreMarket\PCF\PCF.sln.metaproj" 中的目標 "Clean" (進入點):
+正在使用組件 "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 中的 "MSBuild" 工作。
+工作 "MSBuild"
+  全域屬性:
+    BuildingSolutionFile=true
+    CurrentSolutionConfigurationContents=<SolutionConfiguration>
+    <ProjectConfiguration Project="{3930FCFA-8D5C-44FE-8E5B-1CF0FE884C25}" AbsolutePath="E:\SVNProjects\trunk\PreMarket\PCF\PCF\PCFGetter.csproj" BuildProjectInSolution="False">Release|x86</ProjectConfiguration>
+    <ProjectConfiguration Project="{0F9B64B4-DDA6-45F1-9010-B60B8CE617D2}" AbsolutePath="E:\SVNProjects\trunk\PreMarket\PCF\..\..\Utility\PriceLib\PriceLib.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  </SolutionConfiguration>
+    SolutionDir=E:\SVNProjects\trunk\PreMarket\PCF\
+    SolutionExt=.sln
+    SolutionFileName=PCF.sln
+    SolutionName=PCF
+    SolutionPath=E:\SVNProjects\trunk\PreMarket\PCF\PCF.sln
+  專案 "E:\SVNProjects\trunk\PreMarket\PCF\..\..\Utility\PriceLib\PriceLib.csproj" 的其他屬性:
+    Configuration=Release
+    Platform=AnyCPU
+    VisualStudioVersion=11.0
+以來自專案 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets" 的目標 "GetFrameworkPaths" 覆寫專案 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" 中的目標 "GetFrameworkPaths"。
+以來自專案 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFX.targets" 的目標 "SatelliteDllsProjectOutputGroup" 覆寫專案 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" 中的目標 "SatelliteDllsProjectOutputGroup"。
+專案 "E:\SVNProjects\trunk\PreMarket\PCF\PCF.sln" (1) 正在節點 1 (Clean 目標) 上建置 "E:\SVNProjects\trunk\Utility\PriceLib\PriceLib.csproj" (2)。
+以工具版本 "4.0" 建置。
+專案 "E:\SVNProjects\trunk\Utility\PriceLib\PriceLib.csproj" 的檔案 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" 中的目標 "_CheckForInvalidConfigurationAndPlatform" (進入點):
+由於 false 條件，因此已略過工作 "Error"; ( '$(_InvalidConfigurationError)' == 'true' ) 評估為 ( '' == 'true' )。
+由於 false 條件，因此已略過工作 "Warning"; ( '$(_InvalidConfigurationWarning)' == 'true' ) 評估為 ( '' == 'true' )。
+正在使用組件 "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 中的 "Message" 工作。
+工作 "Message"
+  Configuration=Release
+工作 "Message" 執行完成。
+工作 "Message"
+  Platform=AnyCPU
+工作 "Message" 執行完成。
+由於 false 條件，因此已略過工作 "Error"; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) 評估為 ('bin\Release\' != '' and !HasTrailingSlash('bin\Release\'))。
+由於 false 條件，因此已略過工作 "Error"; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) 評估為 ('obj\' != '' and !HasTrailingSlash('obj\'))。
+由於 false 條件，因此已略過工作 "Error"; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) 評估為 ('obj\Release\' != '' and !HasTrailingSlash('obj\Release\'))。
+專案 "PriceLib.csproj" 中的目標 "_CheckForInvalidConfigurationAndPlatform" 建置完成。
+專案 "E:\SVNProjects\trunk\Utility\PriceLib\PriceLib.csproj" 的檔案 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" 中的目標 "BeforeClean" (目標 "Clean" 與它有依存關係):
+專案 "PriceLib.csproj" 中的目標 "BeforeClean" 建置完成。
+由於 false 條件，因此已略過工作 "UnmanagedUnregistration"; ((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
+                    ('$(_AssemblyTimestampBeforeCompile)' == '')) and
+                   Exists('@(_UnmanagedRegistrationCache)')) 評估為 ((('' != '' or '' != 'true' or 'Library' != 'library') or
+                    ('' == '')) and
+                   Exists('obj\PriceLib.csproj.UnmanagedRegistration.cache'))。
+專案 "E:\SVNProjects\trunk\Utility\PriceLib\PriceLib.csproj" 的檔案 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" 中的目標 "CoreClean" (目標 "Clean" 與它有依存關係):
+正在使用組件 "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 中的 "Delete" 工作。
+工作 "Delete"
+工作 "Delete" 執行完成。
+正在使用組件 "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 中的 "ReadLinesFromFile" 工作。
+工作 "ReadLinesFromFile"
+工作 "ReadLinesFromFile" 執行完成。
+正在使用組件 "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 中的 "FindUnderPath" 工作。
+工作 "FindUnderPath"
+  比較路徑為 "bin\Release\"。
+工作 "FindUnderPath" 執行完成。
+工作 "FindUnderPath"
+  比較路徑為 "obj\Release\"。
+工作 "FindUnderPath" 執行完成。
+工作 "Delete"
+工作 "Delete" 執行完成。
+正在使用組件 "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 中的 "RemoveDuplicates" 工作。
+工作 "RemoveDuplicates"
+工作 "RemoveDuplicates" 執行完成。
+正在使用組件 "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 中的 "MakeDir" 工作。
+工作 "MakeDir"
+工作 "MakeDir" 執行完成。
+正在使用組件 "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 中的 "WriteLinesToFile" 工作。
+工作 "WriteLinesToFile"
+工作 "WriteLinesToFile" 執行完成。
+專案 "PriceLib.csproj" 中的目標 "CoreClean" 建置完成。
+專案 "E:\SVNProjects\trunk\Utility\PriceLib\PriceLib.csproj" 的檔案 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" 中的目標 "AssignProjectConfiguration" (目標 "CleanReferencedProjects" 與它有依存關係):
+正在使用組件 "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 中的 "AssignProjectConfiguration" 工作。
+工作 "AssignProjectConfiguration"
+工作 "AssignProjectConfiguration" 執行完成。
+專案 "PriceLib.csproj" 中的目標 "AssignProjectConfiguration" 建置完成。
+專案 "E:\SVNProjects\trunk\Utility\PriceLib\PriceLib.csproj" 的檔案 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" 中的目標 "_SplitProjectReferencesByFileExistence" (目標 "CleanReferencedProjects" 與它有依存關係):
+由於 false 條件，因此已略過工作 "ResolveNonMSBuildProjectOutput"; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') 評估為 (''=='true' and ''!='')。
+專案 "PriceLib.csproj" 中的目標 "_SplitProjectReferencesByFileExistence" 建置完成。
+專案 "E:\SVNProjects\trunk\Utility\PriceLib\PriceLib.csproj" 的檔案 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" 中的目標 "CleanReferencedProjects" (目標 "Clean" 與它有依存關係):
+由於 false 條件，因此已略過工作 "MSBuild"; ('$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') 評估為 ('' != 'true' and 'true' == 'true' and '' != '')。
+專案 "PriceLib.csproj" 中的目標 "CleanReferencedProjects" 建置完成。
+專案 "E:\SVNProjects\trunk\Utility\PriceLib\PriceLib.csproj" 的檔案 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" 中的目標 "CleanPublishFolder" (目標 "Clean" 與它有依存關係):
+由於 false 條件，因此已略過工作 "RemoveDir"; ('$(PublishDir)'=='$(OutputPath)app.publish\' and Exists('$(PublishDir)')) 評估為 ('bin\Release\app.publish\'=='bin\Release\app.publish\' and Exists('bin\Release\app.publish\'))。
+專案 "PriceLib.csproj" 中的目標 "CleanPublishFolder" 建置完成。
+專案 "E:\SVNProjects\trunk\Utility\PriceLib\PriceLib.csproj" 的檔案 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" 中的目標 "AfterClean" (目標 "Clean" 與它有依存關係):
+專案 "PriceLib.csproj" 中的目標 "AfterClean" 建置完成。
+由於 false 條件，因此已略過工作 "EntityClean"; ('@(EntityDeploy)' != '') 評估為 ('' != '')。
+專案 "E:\SVNProjects\trunk\Utility\PriceLib\PriceLib.csproj" 的檔案 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" 中的目標 "Clean" (進入點):
+專案 "PriceLib.csproj" 中的目標 "Clean" 建置完成。
+專案 "E:\SVNProjects\trunk\Utility\PriceLib\PriceLib.csproj" 的檔案 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.ServiceModel.targets" 中的目標 "CleanXsdCodeGen" (進入點):
+工作 "Delete"
+工作 "Delete" 執行完成。
+專案 "PriceLib.csproj" 中的目標 "CleanXsdCodeGen" 建置完成。
+專案 "E:\SVNProjects\trunk\Utility\PriceLib\PriceLib.csproj" (Clean 目標) 建置完成。
+
+工作 "MSBuild" 執行完成。
+專案 "PCF.sln" 中的目標 "Clean" 建置完成。
+專案 "E:\SVNProjects\trunk\PreMarket\PCF\PCF.sln" 的檔案 "E:\SVNProjects\trunk\PreMarket\PCF\PCF.sln.metaproj" 中的目標 "Rebuild" (進入點):
+工作 "MSBuild"
+  全域屬性:
+    BuildingSolutionFile=true
+    CurrentSolutionConfigurationContents=<SolutionConfiguration>
+    <ProjectConfiguration Project="{3930FCFA-8D5C-44FE-8E5B-1CF0FE884C25}" AbsolutePath="E:\SVNProjects\trunk\PreMarket\PCF\PCF\PCFGetter.csproj" BuildProjectInSolution="False">Release|x86</ProjectConfiguration>
+    <ProjectConfiguration Project="{0F9B64B4-DDA6-45F1-9010-B60B8CE617D2}" AbsolutePath="E:\SVNProjects\trunk\PreMarket\PCF\..\..\Utility\PriceLib\PriceLib.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  </SolutionConfiguration>
+    SolutionDir=E:\SVNProjects\trunk\PreMarket\PCF\
+    SolutionExt=.sln
+    SolutionFileName=PCF.sln
+    SolutionName=PCF
+    SolutionPath=E:\SVNProjects\trunk\PreMarket\PCF\PCF.sln
+  專案 "E:\SVNProjects\trunk\PreMarket\PCF\..\..\Utility\PriceLib\PriceLib.csproj" 的其他屬性:
+    Configuration=Release
+    Platform=AnyCPU
+    VisualStudioVersion=11.0
+專案 "E:\SVNProjects\trunk\PreMarket\PCF\PCF.sln" (1) 正在節點 1 (Rebuild 目標) 上建置 "E:\SVNProjects\trunk\Utility\PriceLib\PriceLib.csproj" (2:2)。
+以工具版本 "4.0" 建置。
+已略過目標 "_CheckForInvalidConfigurationAndPlatform"。先前的建置已順利完成。
+專案 "E:\SVNProjects\trunk\Utility\PriceLib\PriceLib.csproj" 的檔案 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" 中的目標 "BeforeRebuild" (目標 "Rebuild" 與它有依存關係):
+專案 "PriceLib.csproj" 中的目標 "BeforeRebuild" 建置完成。
+已略過目標 "Clean"。先前的建置已順利完成。
+由於 false 條件，因此已略過工作 "EntityDeploy"; ('@(EntityDeploy)' != '') 評估為 ('' != '')。
+專案 "E:\SVNProjects\trunk\Utility\PriceLib\PriceLib.csproj" 的檔案 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" 中的目標 "BeforeBuild" (目標 "Build" 與它有依存關係):
+專案 "PriceLib.csproj" 中的目標 "BeforeBuild" 建置完成。
+專案 "E:\SVNProjects\trunk\Utility\PriceLib\PriceLib.csproj" 的檔案 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" 中的目標 "BuildOnlySettings" (目標 "CoreBuild" 與它有依存關係):
+專案 "PriceLib.csproj" 中的目標 "BuildOnlySettings" 建置完成。
+專案 "E:\SVNProjects\trunk\Utility\PriceLib\PriceLib.csproj" 的檔案 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets" 中的目標 "GetFrameworkPaths" (目標 "PrepareForBuild" 與它有依存關係):
+專案 "PriceLib.csproj" 中的目標 "GetFrameworkPaths" 建置完成。
+由於 false 條件，因此已略過工作 "GetWinFXPath"; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) 評估為 (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' ))。
+專案 "E:\SVNProjects\trunk\Utility\PriceLib\PriceLib.csproj" 的檔案 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" 中的目標 "GetReferenceAssemblyPaths" (目標 "PrepareForBuild" 與它有依存關係):
+由於 false 條件，因此已略過工作 "GetReferenceAssemblyPaths"; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) 評估為 ('.NETFramework,Version=v4.0' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == ''))。
+專案 "PriceLib.csproj" 中的目標 "GetReferenceAssemblyPaths" 建置完成。
+專案 "E:\SVNProjects\trunk\Utility\PriceLib\PriceLib.csproj" 的檔案 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" 中的目標 "PrepareForBuild" (目標 "CoreBuild" 與它有依存關係):
+正在使用組件 "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 中的 "FindAppConfigFile" 工作。
+工作 "FindAppConfigFile"
+工作 "FindAppConfigFile" 執行完成。
+工作 "MakeDir"
+工作 "MakeDir" 執行完成。
+專案 "PriceLib.csproj" 中的目標 "PrepareForBuild" 建置完成。
+由於 false 條件，因此已略過工作 "PreBuildEvent"; ('$(PreBuildEvent)'!='') 評估為 (''!='')。
+專案 "E:\SVNProjects\trunk\Utility\PriceLib\PriceLib.csproj" 的檔案 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" 中的目標 "BeforeResolveReferences" (目標 "ResolveReferences" 與它有依存關係):
+專案 "PriceLib.csproj" 中的目標 "BeforeResolveReferences" 建置完成。
+已略過目標 "AssignProjectConfiguration"。先前的建置已順利完成。
+已略過目標 "AssignProjectConfiguration"。先前的建置已順利完成。
+已略過目標 "_SplitProjectReferencesByFileExistence"。先前的建置已順利完成。
+專案 "E:\SVNProjects\trunk\Utility\PriceLib\PriceLib.csproj" 的檔案 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" 中的目標 "ResolveProjectReferences" (目標 "ResolveReferences" 與它有依存關係):
+由於 false 條件，因此已略過工作 "MSBuild"; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') 評估為 ('' == 'true' and '' != '' and ('' == 'true' or 'true' != 'true') and '11.0' != '10.0' and '' != '')。
+由於 false 條件，因此已略過工作 "MSBuild"; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') 評估為 ('' == 'true' and '' != '' and ('' == 'true' or 'true' != 'true') and '11.0' == '10.0' and '' != '')。
+由於 false 條件，因此已略過工作 "MSBuild"; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') 評估為 ('' == 'true' and '' != '' and '' != 'true' and 'true' == 'true' and '' != '')。
+由於 false 條件，因此已略過工作 "MSBuild"; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') 評估為 ('' == 'true' and '' != '' and 'true' == 'true' and '' != '')。
+由於 false 條件，因此已略過工作 "Warning"; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') 評估為 ('' != '' and '' != '')。
+專案 "PriceLib.csproj" 中的目標 "ResolveProjectReferences" 建置完成。
+由於 false 條件，因此已略過工作 "ResolveNativeReferences"; ('@(NativeReference)'!='') 評估為 (''!='')。
+已略過目標 "GetFrameworkPaths"。先前的建置已順利完成。
+已略過目標 "GetReferenceAssemblyPaths"。先前的建置已順利完成。
+已略過目標 "PrepareForBuild"。先前的建置已順利完成。
+專案 "E:\SVNProjects\trunk\Utility\PriceLib\PriceLib.csproj" 的檔案 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" 中的目標 "GetInstalledSDKLocations" (目標 "ResolveSDKReferences" 與它有依存關係):
+由於 false 條件，因此已略過工作 "GetInstalledSDKLocations"; ('@(SDKReference)' != '') 評估為 ('' != '')。
+專案 "PriceLib.csproj" 中的目標 "GetInstalledSDKLocations" 建置完成。
+專案 "E:\SVNProjects\trunk\Utility\PriceLib\PriceLib.csproj" 的檔案 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" 中的目標 "ResolveSDKReferences" (目標 "ResolveAssemblyReferences" 與它有依存關係):
+由於 false 條件，因此已略過工作 "ResolveSDKReference"; ('@(SDKReference)'!='') 評估為 (''!='')。
+專案 "PriceLib.csproj" 中的目標 "ResolveSDKReferences" 建置完成。
+已略過目標 "ResolveSDKReferences"。先前的建置已順利完成。
+專案 "E:\SVNProjects\trunk\Utility\PriceLib\PriceLib.csproj" 的檔案 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" 中的目標 "ExpandSDKReferences" (目標 "ResolveAssemblyReferences" 與它有依存關係):
+由於 false 條件，因此已略過工作 "GetSDKReferenceFiles"; ('@(ResolvedSDKReference)'!='') 評估為 (''!='')。
+專案 "PriceLib.csproj" 中的目標 "ExpandSDKReferences" 建置完成。
+專案 "E:\SVNProjects\trunk\Utility\PriceLib\PriceLib.csproj" 的檔案 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" 中的目標 "ResolveAssemblyReferences" (目標 "ResolveReferences" 與它有依存關係):
+正在使用組件 "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 中的 "ResolveAssemblyReference" 工作。
+工作 "ResolveAssemblyReference"
+  TargetFrameworkMoniker:
+      .NETFramework,Version=v4.0
+  TargetFrameworkMonikerDisplayName:
+      .NET Framework 4
+  TargetedRuntimeVersion:
+      v4.0.30319
+  Assemblies:
+      log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL
+          Private = 'True'
+          HintPath = '..\..\Pricing\PriceCalculator\packages\log4net.2.0.5\lib\net40-full\log4net.dll'
+      ServiceStack.Common, Version=3.9.69.0, Culture=neutral, processorArchitecture=MSIL
+          HintPath = '..\..\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Common.dll'
+          SpecificVersion = 'False'
+      ServiceStack.Interfaces, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL
+          HintPath = '..\..\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Interfaces.dll'
+          SpecificVersion = 'False'
+      ServiceStack.Redis, Version=3.9.71.0, Culture=neutral, processorArchitecture=MSIL
+          HintPath = '..\..\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Redis.dll'
+          SpecificVersion = 'False'
+      ServiceStack.Text, Version=3.9.69.0, Culture=neutral, processorArchitecture=MSIL
+          HintPath = '..\..\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Text.dll'
+          SpecificVersion = 'False'
+      System
+      System.Drawing
+      System.Windows.Forms
+      System.Xml.Linq
+      System.Data.DataSetExtensions
+      Microsoft.CSharp
+      System.Data
+      System.Xml
+      System.Core
+  AssemblyFiles:
+      C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll
+  CandidateAssemblyFiles:
+  TargetFrameworkDirectories:
+      C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0
+  InstalledAssemblyTables:
+  IgnoreInstalledAssemblyTable:
+      False
+  SearchPaths:
+      {CandidateAssemblyFiles}
+      D:\Projects\ETF\Pricing\PriceLib\Dll\
+      {HintPathFromItem}
+      {TargetFrameworkDirectory}
+      {Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}
+      {AssemblyFolders}
+      {GAC}
+      {RawFileName}
+      bin\Release\
+  AllowedAssemblyExtensions:
+      .winmd
+      .dll
+      .exe
+  AllowedRelatedFileExtensions:
+      .pdb
+      .xml
+      .pri
+  AppConfigFile:
+      
+  AutoUnify:
+      True
+  CopyLocalDependenciesWhenParentReferenceInGac:
+      True
+  FindDependencies:
+      True
+  TargetProcessorArchitecture:
+      msil
+  StateFile:
+      obj\Release\PriceLib.csprojResolveAssemblyReference.cache
+  InstalledAssemblySubsetTables:
+  IgnoreInstalledAssemblySubsetTable:
+      False
+  TargetFrameworkSubsets:
+  FullTargetFrameworkSubsetNames:
+      Full
+  ProfileName:
+      
+  FullFrameworkFolders:
+      C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0
+  LatestTargetFrameworkDirectories:
+  ProfileTablesLocation:
+  統一主要參考 "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"。
+      由於這個架構檔已有較新的版本，所以使用這個版本代替 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Common.dll" 中的原始版本 "2.0.0.0"。
+      由於這個架構檔已有較新的版本，所以使用這個版本代替 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Interfaces.dll" 中的原始版本 "2.0.0.0"。
+      由於這個架構檔已有較新的版本，所以使用這個版本代替 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Redis.dll" 中的原始版本 "2.0.0.0"。
+      由於這個架構檔已有較新的版本，所以使用這個版本代替 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Text.dll" 中的原始版本 "2.0.0.0"。
+      解析的檔案路徑為 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll"。
+      在搜尋路徑位置 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" 找到參考。
+      這個參考不是 "CopyLocal"，因為它是一個必要條件檔案。
+      這個參考的 ImageRuntimeVersion 為 "v4.0.30319"。
+  主要參考 "log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a"。
+      解析的檔案路徑為 "E:\SVNProjects\trunk\Pricing\PriceCalculator\packages\log4net.2.0.5\lib\net40-full\log4net.dll"。
+      在搜尋路徑位置 "{HintPathFromItem}" 找到參考。
+          針對 SearchPath "D:\Projects\ETF\Pricing\PriceLib\Dll\"。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\log4net.winmd"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\log4net.dll"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\log4net.exe"，但它不存在。
+      找到相關檔案 "E:\SVNProjects\trunk\Pricing\PriceCalculator\packages\log4net.2.0.5\lib\net40-full\log4net.xml"。
+      這個參考的 ImageRuntimeVersion 為 "v4.0.30319"。
+  主要參考 "ServiceStack.Common, Version=3.9.69.0, Culture=neutral, PublicKeyToken=null"。
+      解析的檔案路徑為 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Common.dll"。
+      在搜尋路徑位置 "{HintPathFromItem}" 找到參考。
+          針對 SearchPath "D:\Projects\ETF\Pricing\PriceLib\Dll\"。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\ServiceStack.Common.winmd"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\ServiceStack.Common.dll"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\ServiceStack.Common.exe"，但它不存在。
+      找到相關檔案 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Common.xml"。
+      這個參考的 ImageRuntimeVersion 為 "v2.0.50727"。
+  主要參考 "ServiceStack.Interfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"。
+      解析的檔案路徑為 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Interfaces.dll"。
+      在搜尋路徑位置 "{HintPathFromItem}" 找到參考。
+          針對 SearchPath "D:\Projects\ETF\Pricing\PriceLib\Dll\"。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\ServiceStack.Interfaces.winmd"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\ServiceStack.Interfaces.dll"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\ServiceStack.Interfaces.exe"，但它不存在。
+      找到相關檔案 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Interfaces.xml"。
+      這個參考的 ImageRuntimeVersion 為 "v2.0.50727"。
+  主要參考 "ServiceStack.Redis, Version=3.9.71.0, Culture=neutral, PublicKeyToken=null"。
+      解析的檔案路徑為 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Redis.dll"。
+      在搜尋路徑位置 "{HintPathFromItem}" 找到參考。
+          針對 SearchPath "D:\Projects\ETF\Pricing\PriceLib\Dll\"。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\ServiceStack.Redis.winmd"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\ServiceStack.Redis.dll"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\ServiceStack.Redis.exe"，但它不存在。
+      找到相關檔案 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Redis.xml"。
+      這個參考的 ImageRuntimeVersion 為 "v2.0.50727"。
+  主要參考 "ServiceStack.Text, Version=3.9.69.0, Culture=neutral, PublicKeyToken=null"。
+      解析的檔案路徑為 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Text.dll"。
+      在搜尋路徑位置 "{HintPathFromItem}" 找到參考。
+          針對 SearchPath "D:\Projects\ETF\Pricing\PriceLib\Dll\"。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\ServiceStack.Text.winmd"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\ServiceStack.Text.dll"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\ServiceStack.Text.exe"，但它不存在。
+      找到相關檔案 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Text.xml"。
+      這個參考的 ImageRuntimeVersion 為 "v2.0.50727"。
+  統一主要參考 "System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"。
+      由於這個架構檔已有較新的版本，所以使用這個版本代替 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Common.dll" 中的原始版本 "2.0.0.0"。
+      由於這個架構檔已有較新的版本，所以使用這個版本代替 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Interfaces.dll" 中的原始版本 "2.0.0.0"。
+      由於這個架構檔已有較新的版本，所以使用這個版本代替 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Redis.dll" 中的原始版本 "2.0.0.0"。
+      由於這個架構檔已有較新的版本，所以使用這個版本代替 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Text.dll" 中的原始版本 "2.0.0.0"。
+      解析的檔案路徑為 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll"。
+      在搜尋路徑位置 "{TargetFrameworkDirectory}" 找到參考。
+          針對 SearchPath "D:\Projects\ETF\Pricing\PriceLib\Dll\"。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.winmd"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.dll"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.exe"，但它不存在。
+          針對 SearchPath "{TargetFrameworkDirectory}"。
+          已考慮 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.winmd"，但它不存在。
+      這個參考不是 "CopyLocal"，因為它是一個必要條件檔案。
+      這個參考的 ImageRuntimeVersion 為 "v4.0.30319"。
+  主要參考 "System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"。
+      解析的檔案路徑為 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll"。
+      在搜尋路徑位置 "{TargetFrameworkDirectory}" 找到參考。
+          針對 SearchPath "D:\Projects\ETF\Pricing\PriceLib\Dll\"。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.Drawing.winmd"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.Drawing.dll"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.Drawing.exe"，但它不存在。
+          針對 SearchPath "{TargetFrameworkDirectory}"。
+          已考慮 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.winmd"，但它不存在。
+      這個參考不是 "CopyLocal"，因為它是一個必要條件檔案。
+      這個參考的 ImageRuntimeVersion 為 "v4.0.30319"。
+  主要參考 "System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"。
+      解析的檔案路徑為 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll"。
+      在搜尋路徑位置 "{TargetFrameworkDirectory}" 找到參考。
+          針對 SearchPath "D:\Projects\ETF\Pricing\PriceLib\Dll\"。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.Windows.Forms.winmd"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.Windows.Forms.dll"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.Windows.Forms.exe"，但它不存在。
+          針對 SearchPath "{TargetFrameworkDirectory}"。
+          已考慮 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.winmd"，但它不存在。
+      這個參考不是 "CopyLocal"，因為它是一個必要條件檔案。
+      這個參考的 ImageRuntimeVersion 為 "v4.0.30319"。
+  統一主要參考 "System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"。
+      由於這個架構檔已有較新的版本，所以使用這個版本代替 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Common.dll" 中的原始版本 "3.5.0.0"。
+      解析的檔案路徑為 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.Linq.dll"。
+      在搜尋路徑位置 "{TargetFrameworkDirectory}" 找到參考。
+          針對 SearchPath "D:\Projects\ETF\Pricing\PriceLib\Dll\"。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.Xml.Linq.winmd"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.Xml.Linq.dll"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.Xml.Linq.exe"，但它不存在。
+          針對 SearchPath "{TargetFrameworkDirectory}"。
+          已考慮 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.Linq.winmd"，但它不存在。
+      這個參考不是 "CopyLocal"，因為它是一個必要條件檔案。
+      這個參考的 ImageRuntimeVersion 為 "v4.0.30319"。
+  主要參考 "System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"。
+      解析的檔案路徑為 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.DataSetExtensions.dll"。
+      在搜尋路徑位置 "{TargetFrameworkDirectory}" 找到參考。
+          針對 SearchPath "D:\Projects\ETF\Pricing\PriceLib\Dll\"。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.Data.DataSetExtensions.winmd"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.Data.DataSetExtensions.dll"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.Data.DataSetExtensions.exe"，但它不存在。
+          針對 SearchPath "{TargetFrameworkDirectory}"。
+          已考慮 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.DataSetExtensions.winmd"，但它不存在。
+      這個參考不是 "CopyLocal"，因為它是一個必要條件檔案。
+      這個參考的 ImageRuntimeVersion 為 "v4.0.30319"。
+  主要參考 "Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"。
+      解析的檔案路徑為 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Microsoft.CSharp.dll"。
+      在搜尋路徑位置 "{TargetFrameworkDirectory}" 找到參考。
+          針對 SearchPath "D:\Projects\ETF\Pricing\PriceLib\Dll\"。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\Microsoft.CSharp.winmd"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\Microsoft.CSharp.dll"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\Microsoft.CSharp.exe"，但它不存在。
+          針對 SearchPath "{TargetFrameworkDirectory}"。
+          已考慮 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Microsoft.CSharp.winmd"，但它不存在。
+      這個參考不是 "CopyLocal"，因為它是一個必要條件檔案。
+      這個參考的 ImageRuntimeVersion 為 "v4.0.30319"。
+  統一主要參考 "System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"。
+      由於這個架構檔已有較新的版本，所以使用這個版本代替 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Interfaces.dll" 中的原始版本 "2.0.0.0"。
+      解析的檔案路徑為 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll"。
+      在搜尋路徑位置 "{TargetFrameworkDirectory}" 找到參考。
+          針對 SearchPath "D:\Projects\ETF\Pricing\PriceLib\Dll\"。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.Data.winmd"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.Data.dll"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.Data.exe"，但它不存在。
+          針對 SearchPath "{TargetFrameworkDirectory}"。
+          已考慮 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.winmd"，但它不存在。
+      這個參考不是 "CopyLocal"，因為它是一個必要條件檔案。
+      這個參考的 ImageRuntimeVersion 為 "v4.0.30319"。
+  統一主要參考 "System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"。
+      由於這個架構檔已有較新的版本，所以使用這個版本代替 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Common.dll" 中的原始版本 "2.0.0.0"。
+      由於這個架構檔已有較新的版本，所以使用這個版本代替 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Text.dll" 中的原始版本 "2.0.0.0"。
+      解析的檔案路徑為 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll"。
+      在搜尋路徑位置 "{TargetFrameworkDirectory}" 找到參考。
+          針對 SearchPath "D:\Projects\ETF\Pricing\PriceLib\Dll\"。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.Xml.winmd"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.Xml.dll"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.Xml.exe"，但它不存在。
+          針對 SearchPath "{TargetFrameworkDirectory}"。
+          已考慮 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.winmd"，但它不存在。
+      這個參考不是 "CopyLocal"，因為它是一個必要條件檔案。
+      這個參考的 ImageRuntimeVersion 為 "v4.0.30319"。
+  統一主要參考 "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"。
+      由於這個架構檔已有較新的版本，所以使用這個版本代替 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Common.dll" 中的原始版本 "3.5.0.0"。
+      由於這個架構檔已有較新的版本，所以使用這個版本代替 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Interfaces.dll" 中的原始版本 "3.5.0.0"。
+      由於這個架構檔已有較新的版本，所以使用這個版本代替 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Redis.dll" 中的原始版本 "3.5.0.0"。
+      由於這個架構檔已有較新的版本，所以使用這個版本代替 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Text.dll" 中的原始版本 "3.5.0.0"。
+      解析的檔案路徑為 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll"。
+      在搜尋路徑位置 "{TargetFrameworkDirectory}" 找到參考。
+          針對 SearchPath "D:\Projects\ETF\Pricing\PriceLib\Dll\"。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.Core.winmd"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.Core.dll"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.Core.exe"，但它不存在。
+          針對 SearchPath "{TargetFrameworkDirectory}"。
+          已考慮 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.winmd"，但它不存在。
+      這個參考不是 "CopyLocal"，因為它是一個必要條件檔案。
+      這個參考的 ImageRuntimeVersion 為 "v4.0.30319"。
+  統一相依性 "System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"。
+      由於這個架構檔已有較新的版本，所以使用這個版本代替 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Common.dll" 中的原始版本 "2.0.0.0"。
+      解析的檔案路徑為 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Web.dll"。
+      在搜尋路徑位置 "{TargetFrameworkDirectory}" 找到參考。
+          針對 SearchPath "E:\SVNProjects\trunk\Pricing\PriceCalculator\packages\log4net.2.0.5\lib\net40-full"。
+          已考慮 "E:\SVNProjects\trunk\Pricing\PriceCalculator\packages\log4net.2.0.5\lib\net40-full\System.Web.winmd"，但它不存在。
+          已考慮 "E:\SVNProjects\trunk\Pricing\PriceCalculator\packages\log4net.2.0.5\lib\net40-full\System.Web.dll"，但它不存在。
+          已考慮 "E:\SVNProjects\trunk\Pricing\PriceCalculator\packages\log4net.2.0.5\lib\net40-full\System.Web.exe"，但它不存在。
+          針對 SearchPath "D:\Projects\ETF\Pricing\PriceLib\Dll\"。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.Web.winmd"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.Web.dll"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.Web.exe"，但它不存在。
+          針對 SearchPath "{TargetFrameworkDirectory}"。
+          已考慮 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Web.winmd"，但它不存在。
+      為 "ServiceStack.Common, Version=3.9.69.0, Culture=neutral, processorArchitecture=MSIL" 的必要項。
+      為 "log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL" 的必要項。
+      這個參考不是 "CopyLocal"，因為它是一個必要條件檔案。
+      這個參考的 ImageRuntimeVersion 為 "v4.0.30319"。
+  相依性 "System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"。
+      解析的檔案路徑為 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Configuration.dll"。
+      在搜尋路徑位置 "{TargetFrameworkDirectory}" 找到參考。
+          針對 SearchPath "E:\SVNProjects\trunk\Pricing\PriceCalculator\packages\log4net.2.0.5\lib\net40-full"。
+          已考慮 "E:\SVNProjects\trunk\Pricing\PriceCalculator\packages\log4net.2.0.5\lib\net40-full\System.Configuration.winmd"，但它不存在。
+          已考慮 "E:\SVNProjects\trunk\Pricing\PriceCalculator\packages\log4net.2.0.5\lib\net40-full\System.Configuration.dll"，但它不存在。
+          已考慮 "E:\SVNProjects\trunk\Pricing\PriceCalculator\packages\log4net.2.0.5\lib\net40-full\System.Configuration.exe"，但它不存在。
+          針對 SearchPath "D:\Projects\ETF\Pricing\PriceLib\Dll\"。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.Configuration.winmd"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.Configuration.dll"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.Configuration.exe"，但它不存在。
+          針對 SearchPath "{TargetFrameworkDirectory}"。
+          已考慮 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Configuration.winmd"，但它不存在。
+      為 "log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL" 的必要項。
+      這個參考不是 "CopyLocal"，因為它是一個必要條件檔案。
+      這個參考的 ImageRuntimeVersion 為 "v4.0.30319"。
+  統一相依性 "System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"。
+      由於這個架構檔已有較新的版本，所以使用這個版本代替 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Common.dll" 中的原始版本 "3.0.0.0"。
+      解析的檔案路徑為 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.ServiceModel.dll"。
+      在搜尋路徑位置 "{TargetFrameworkDirectory}" 找到參考。
+          針對 SearchPath "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3"。
+          已考慮 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\System.ServiceModel.winmd"，但它不存在。
+          已考慮 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\System.ServiceModel.dll"，但它不存在。
+          已考慮 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\System.ServiceModel.exe"，但它不存在。
+          針對 SearchPath "D:\Projects\ETF\Pricing\PriceLib\Dll\"。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.ServiceModel.winmd"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.ServiceModel.dll"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.ServiceModel.exe"，但它不存在。
+          針對 SearchPath "{TargetFrameworkDirectory}"。
+          已考慮 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.ServiceModel.winmd"，但它不存在。
+      為 "ServiceStack.Common, Version=3.9.69.0, Culture=neutral, processorArchitecture=MSIL" 的必要項。
+      這個參考不是 "CopyLocal"，因為它是一個必要條件檔案。
+      這個參考的 ImageRuntimeVersion 為 "v4.0.30319"。
+  統一相依性 "System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"。
+      由於這個架構檔已有較新的版本，所以使用這個版本代替 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Common.dll" 中的原始版本 "3.0.0.0"。
+      由於這個架構檔已有較新的版本，所以使用這個版本代替 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Interfaces.dll" 中的原始版本 "3.0.0.0"。
+      由於這個架構檔已有較新的版本，所以使用這個版本代替 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Text.dll" 中的原始版本 "3.0.0.0"。
+      解析的檔案路徑為 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Runtime.Serialization.dll"。
+      在搜尋路徑位置 "{TargetFrameworkDirectory}" 找到參考。
+          針對 SearchPath "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3"。
+          已考慮 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\System.Runtime.Serialization.winmd"，但它不存在。
+          已考慮 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\System.Runtime.Serialization.dll"，但它不存在。
+          已考慮 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\System.Runtime.Serialization.exe"，但它不存在。
+          針對 SearchPath "D:\Projects\ETF\Pricing\PriceLib\Dll\"。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.Runtime.Serialization.winmd"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.Runtime.Serialization.dll"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.Runtime.Serialization.exe"，但它不存在。
+          針對 SearchPath "{TargetFrameworkDirectory}"。
+          已考慮 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Runtime.Serialization.winmd"，但它不存在。
+      為 "ServiceStack.Interfaces, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" 的必要項。
+      為 "ServiceStack.Text, Version=3.9.69.0, Culture=neutral, processorArchitecture=MSIL" 的必要項。
+      為 "ServiceStack.Common, Version=3.9.69.0, Culture=neutral, processorArchitecture=MSIL" 的必要項。
+      為 "ServiceStack.Redis, Version=3.9.71.0, Culture=neutral, processorArchitecture=MSIL" 的必要項。
+      這個參考不是 "CopyLocal"，因為它是一個必要條件檔案。
+      這個參考的 ImageRuntimeVersion 為 "v4.0.30319"。
+  統一相依性 "System.ServiceModel.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"。
+      由於這個架構檔已有較新的版本，所以使用這個版本代替 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Common.dll" 中的原始版本 "3.5.0.0"。
+      解析的檔案路徑為 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.ServiceModel.Web.dll"。
+      在搜尋路徑位置 "{TargetFrameworkDirectory}" 找到參考。
+          針對 SearchPath "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3"。
+          已考慮 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\System.ServiceModel.Web.winmd"，但它不存在。
+          已考慮 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\System.ServiceModel.Web.dll"，但它不存在。
+          已考慮 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\System.ServiceModel.Web.exe"，但它不存在。
+          針對 SearchPath "D:\Projects\ETF\Pricing\PriceLib\Dll\"。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.ServiceModel.Web.winmd"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.ServiceModel.Web.dll"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.ServiceModel.Web.exe"，但它不存在。
+          針對 SearchPath "{TargetFrameworkDirectory}"。
+          已考慮 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.ServiceModel.Web.winmd"，但它不存在。
+      為 "ServiceStack.Common, Version=3.9.69.0, Culture=neutral, processorArchitecture=MSIL" 的必要項。
+      這個參考不是 "CopyLocal"，因為它是一個必要條件檔案。
+      這個參考的 ImageRuntimeVersion 為 "v4.0.30319"。
+  相依性 "ServiceStack.Common, Version=3.9.70.0, Culture=neutral, PublicKeyToken=null"。
+      無法解析此參考。找不到組件 "ServiceStack.Common, Version=3.9.70.0, Culture=neutral, PublicKeyToken=null"。請檢查以確定磁碟上有該組件。 如果程式碼需要此參考，可能會發生編譯錯誤。
+          針對 SearchPath "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3"。
+          已考慮 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Common.winmd"，但它不存在。
+          已考慮 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Common.dll"，但其名稱 "ServiceStack.Common, Version=3.9.69.0, Culture=neutral, PublicKeyToken=null" 不符。
+          已考慮 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Common.exe"，但它不存在。
+          針對 SearchPath "D:\Projects\ETF\Pricing\PriceLib\Dll\"。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\ServiceStack.Common.winmd"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\ServiceStack.Common.dll"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\ServiceStack.Common.exe"，但它不存在。
+          針對 SearchPath "{TargetFrameworkDirectory}"。
+          已考慮 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\ServiceStack.Common.winmd"，但它不存在。
+          已考慮 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\ServiceStack.Common.dll"，但它不存在。
+          已考慮 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\ServiceStack.Common.exe"，但它不存在。
+          針對 SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}"。
+          已考慮 AssemblyFoldersEx 位置。
+          針對 SearchPath "{AssemblyFolders}"。
+          已考慮 "C:\Program Files (x86)\Microsoft SQL Server\120\SDK\Assemblies\ServiceStack.Common.winmd"，但它不存在。
+          已考慮 "C:\Program Files (x86)\Microsoft SQL Server\120\SDK\Assemblies\ServiceStack.Common.dll"，但它不存在。
+          已考慮 "C:\Program Files (x86)\Microsoft SQL Server\120\SDK\Assemblies\ServiceStack.Common.exe"，但它不存在。
+          已考慮 "C:\Program Files\IIS\Microsoft Web Deploy V3\ServiceStack.Common.winmd"，但它不存在。
+          已考慮 "C:\Program Files\IIS\Microsoft Web Deploy V3\ServiceStack.Common.dll"，但它不存在。
+          已考慮 "C:\Program Files\IIS\Microsoft Web Deploy V3\ServiceStack.Common.exe"，但它不存在。
+          已考慮 "C:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\ServiceStack.Common.winmd"，但它不存在。
+          已考慮 "C:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\ServiceStack.Common.dll"，但它不存在。
+          已考慮 "C:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\ServiceStack.Common.exe"，但它不存在。
+          已考慮 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\ServiceStack.Common.winmd"，但它不存在。
+          已考慮 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\ServiceStack.Common.dll"，但它不存在。
+          已考慮 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\ServiceStack.Common.exe"，但它不存在。
+          已考慮 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\ServiceStack.Common.winmd"，但它不存在。
+          已考慮 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\ServiceStack.Common.dll"，但它不存在。
+          已考慮 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\ServiceStack.Common.exe"，但它不存在。
+          已考慮 "C:\Program Files (x86)\Microsoft.NET\ADOMD.NET\110\ServiceStack.Common.winmd"，但它不存在。
+          已考慮 "C:\Program Files (x86)\Microsoft.NET\ADOMD.NET\110\ServiceStack.Common.dll"，但它不存在。
+          已考慮 "C:\Program Files (x86)\Microsoft.NET\ADOMD.NET\110\ServiceStack.Common.exe"，但它不存在。
+          針對 SearchPath "{GAC}"。
+          已考慮 "ServiceStack.Common, Version=3.9.70.0, Culture=neutral, PublicKeyToken=null"，但在 GAC 中找不到它。
+          針對 SearchPath "bin\Release\"。
+          已考慮 "bin\Release\ServiceStack.Common.winmd"，但它不存在。
+          已考慮 "bin\Release\ServiceStack.Common.dll"，但它不存在。
+          已考慮 "bin\Release\ServiceStack.Common.exe"，但它不存在。
+      為 "ServiceStack.Redis, Version=3.9.71.0, Culture=neutral, processorArchitecture=MSIL" 的必要項。
+  相依性 "ServiceStack.Text, Version=3.9.71.0, Culture=neutral, PublicKeyToken=null"。
+      無法解析此參考。找不到組件 "ServiceStack.Text, Version=3.9.71.0, Culture=neutral, PublicKeyToken=null"。請檢查以確定磁碟上有該組件。 如果程式碼需要此參考，可能會發生編譯錯誤。
+          針對 SearchPath "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3"。
+          已考慮 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Text.winmd"，但它不存在。
+          已考慮 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Text.dll"，但其名稱 "ServiceStack.Text, Version=3.9.69.0, Culture=neutral, PublicKeyToken=null" 不符。
+          已考慮 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Text.exe"，但它不存在。
+          針對 SearchPath "D:\Projects\ETF\Pricing\PriceLib\Dll\"。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\ServiceStack.Text.winmd"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\ServiceStack.Text.dll"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\ServiceStack.Text.exe"，但它不存在。
+          針對 SearchPath "{TargetFrameworkDirectory}"。
+          已考慮 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\ServiceStack.Text.winmd"，但它不存在。
+          已考慮 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\ServiceStack.Text.dll"，但它不存在。
+          已考慮 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\ServiceStack.Text.exe"，但它不存在。
+          針對 SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}"。
+          已考慮 AssemblyFoldersEx 位置。
+          針對 SearchPath "{AssemblyFolders}"。
+          已考慮 "C:\Program Files (x86)\Microsoft SQL Server\120\SDK\Assemblies\ServiceStack.Text.winmd"，但它不存在。
+          已考慮 "C:\Program Files (x86)\Microsoft SQL Server\120\SDK\Assemblies\ServiceStack.Text.dll"，但它不存在。
+          已考慮 "C:\Program Files (x86)\Microsoft SQL Server\120\SDK\Assemblies\ServiceStack.Text.exe"，但它不存在。
+          已考慮 "C:\Program Files\IIS\Microsoft Web Deploy V3\ServiceStack.Text.winmd"，但它不存在。
+          已考慮 "C:\Program Files\IIS\Microsoft Web Deploy V3\ServiceStack.Text.dll"，但它不存在。
+          已考慮 "C:\Program Files\IIS\Microsoft Web Deploy V3\ServiceStack.Text.exe"，但它不存在。
+          已考慮 "C:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\ServiceStack.Text.winmd"，但它不存在。
+          已考慮 "C:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\ServiceStack.Text.dll"，但它不存在。
+          已考慮 "C:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\ServiceStack.Text.exe"，但它不存在。
+          已考慮 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\ServiceStack.Text.winmd"，但它不存在。
+          已考慮 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\ServiceStack.Text.dll"，但它不存在。
+          已考慮 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\ServiceStack.Text.exe"，但它不存在。
+          已考慮 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\ServiceStack.Text.winmd"，但它不存在。
+          已考慮 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\ServiceStack.Text.dll"，但它不存在。
+          已考慮 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\ServiceStack.Text.exe"，但它不存在。
+          已考慮 "C:\Program Files (x86)\Microsoft.NET\ADOMD.NET\110\ServiceStack.Text.winmd"，但它不存在。
+          已考慮 "C:\Program Files (x86)\Microsoft.NET\ADOMD.NET\110\ServiceStack.Text.dll"，但它不存在。
+          已考慮 "C:\Program Files (x86)\Microsoft.NET\ADOMD.NET\110\ServiceStack.Text.exe"，但它不存在。
+          針對 SearchPath "{GAC}"。
+          已考慮 "ServiceStack.Text, Version=3.9.71.0, Culture=neutral, PublicKeyToken=null"，但在 GAC 中找不到它。
+          針對 SearchPath "bin\Release\"。
+          已考慮 "bin\Release\ServiceStack.Text.winmd"，但它不存在。
+          已考慮 "bin\Release\ServiceStack.Text.dll"，但它不存在。
+          已考慮 "bin\Release\ServiceStack.Text.exe"，但它不存在。
+      為 "ServiceStack.Redis, Version=3.9.71.0, Culture=neutral, processorArchitecture=MSIL" 的必要項。
+  統一相依性 "System.Data.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"。
+      由於這個架構檔已有較新的版本，所以使用這個版本代替 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Text.dll" 中的原始版本 "3.5.0.0"。
+      解析的檔案路徑為 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.Linq.dll"。
+      在搜尋路徑位置 "{TargetFrameworkDirectory}" 找到參考。
+          針對 SearchPath "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3"。
+          已考慮 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\System.Data.Linq.winmd"，但它不存在。
+          已考慮 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\System.Data.Linq.dll"，但它不存在。
+          已考慮 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\System.Data.Linq.exe"，但它不存在。
+          針對 SearchPath "D:\Projects\ETF\Pricing\PriceLib\Dll\"。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.Data.Linq.winmd"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.Data.Linq.dll"，但它不存在。
+          已考慮 "D:\Projects\ETF\Pricing\PriceLib\Dll\System.Data.Linq.exe"，但它不存在。
+          針對 SearchPath "{TargetFrameworkDirectory}"。
+          已考慮 "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.Linq.winmd"，但它不存在。
+      為 "ServiceStack.Text, Version=3.9.69.0, Culture=neutral, processorArchitecture=MSIL" 的必要項。
+      為 "ServiceStack.Common, Version=3.9.69.0, Culture=neutral, processorArchitecture=MSIL" 的必要項。
+      這個參考不是 "CopyLocal"，因為它是一個必要條件檔案。
+      這個參考的 ImageRuntimeVersion 為 "v4.0.30319"。
+  "ServiceStack.Common, Version=3.9.69.0, Culture=neutral, PublicKeyToken=null" 和 "ServiceStack.Common, Version=3.9.70.0, Culture=neutral, PublicKeyToken=null" 之間發生衝突。
+      已選擇 "ServiceStack.Common, Version=3.9.69.0, Culture=neutral, PublicKeyToken=null"，因為它是主要組件，而 "ServiceStack.Common, Version=3.9.70.0, Culture=neutral, PublicKeyToken=null" 不是。
+      相依於 "ServiceStack.Common, Version=3.9.69.0, Culture=neutral, PublicKeyToken=null" [E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Common.dll] 的參考。
+          E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Common.dll
+            專案檔項目 Include 造成參考 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Common.dll" 的項目。
+              ServiceStack.Common, Version=3.9.69.0, Culture=neutral, processorArchitecture=MSIL
+      相依於 "ServiceStack.Common, Version=3.9.70.0, Culture=neutral, PublicKeyToken=null" [] 的參考。
+          E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Redis.dll
+            專案檔項目 Include 造成參考 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Redis.dll" 的項目。
+              ServiceStack.Redis, Version=3.9.71.0, Culture=neutral, processorArchitecture=MSIL
+  "ServiceStack.Text, Version=3.9.69.0, Culture=neutral, PublicKeyToken=null" 和 "ServiceStack.Text, Version=3.9.71.0, Culture=neutral, PublicKeyToken=null" 之間發生衝突。
+      已選擇 "ServiceStack.Text, Version=3.9.69.0, Culture=neutral, PublicKeyToken=null"，因為它是主要組件，而 "ServiceStack.Text, Version=3.9.71.0, Culture=neutral, PublicKeyToken=null" 不是。
+      相依於 "ServiceStack.Text, Version=3.9.69.0, Culture=neutral, PublicKeyToken=null" [E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Text.dll] 的參考。
+          E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Text.dll
+            專案檔項目 Include 造成參考 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Text.dll" 的項目。
+              ServiceStack.Text, Version=3.9.69.0, Culture=neutral, processorArchitecture=MSIL
+              ServiceStack.Common, Version=3.9.69.0, Culture=neutral, processorArchitecture=MSIL
+          E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Common.dll
+            專案檔項目 Include 造成參考 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Common.dll" 的項目。
+              ServiceStack.Common, Version=3.9.69.0, Culture=neutral, processorArchitecture=MSIL
+      相依於 "ServiceStack.Text, Version=3.9.71.0, Culture=neutral, PublicKeyToken=null" [] 的參考。
+          E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Redis.dll
+            專案檔項目 Include 造成參考 "E:\SVNProjects\trunk\APIs\Redis\ServiceStack.Redis\ServiceStack.Redis3\ServiceStack.Redis.dll" 的項目。
+              ServiceStack.Redis, Version=3.9.71.0, Culture=neutral, processorArchitecture=MSIL
+  AssemblyFoldersEx 位置: "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}"
+          C:\Program Files (x86)\Microsoft WCF Data Services\5.6.4\bin\.NETFramework\
+          E:\Program Files (x86)\Microsoft  Visual Studio 14.0\Common7\IDE\ReferenceAssemblies\v4.0\
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\ReferenceAssemblies\v4.0\
+          
+          C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Tasks
+          C:\Program Files (x86)\Microsoft SQL Server\110\DTS\PipelineComponents\
+          C:\Program Files (x86)\Microsoft SQL Server\110\DTS\ForEachEnumerators
+          C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Connections\
+          C:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\ReportViewer\
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PublicAssemblies\
+          C:\Program Files (x86)\Microsoft.NET\Primary Interop Assemblies\
+          C:\Program Files (x86)\MySQL\MySQL Connector Net 6.9.9\Assemblies\v4.0\
+          C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\.NETFramework\v4.0\Prototyping\Libraries\
+          C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\.NETFramework\v4.0\Libraries\
+          E:\Program Files (x86)\Microsoft  Visual Studio 14.0\VSSDK\VisualStudioIntegration\Common\Assemblies\v2.0\
+          E:\Program Files (x86)\Microsoft  Visual Studio 14.0\Common7\IDE\ReferenceAssemblies\v2.0\
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\ReferenceAssemblies\v2.0\
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\ReportViewer\
+          C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\PublicAssemblies\
+          C:\Program Files (x86)\Microsoft Chart Controls\Assemblies
+          C:\Program Files\Microsoft SQL Server\110\DTS\Tasks
+          C:\Program Files\Microsoft SQL Server\110\DTS\PipelineComponents\
+          C:\Program Files\Microsoft SQL Server\110\DTS\ForEachEnumerators
+          C:\Program Files\Microsoft SQL Server\110\DTS\Connections\
+工作 "ResolveAssemblyReference" 執行完成。
+專案 "PriceLib.csproj" 中的目標 "ResolveAssemblyReferences" 建置完成。
+已略過目標 "PrepareForBuild"。先前的建置已順利完成。
+由於 false 條件，因此已略過工作 "ResolveKeySource"; ($(SignManifests) == 'true' or $(SignAssembly) == 'true') 評估為 ( == 'true' or  == 'true')。
+已略過目標 "ResolveAssemblyReferences"。先前的建置已順利完成。
+專案 "E:\SVNProjects\trunk\Utility\PriceLib\PriceLib.csproj" 的檔案 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" 中的目標 "ResolveComReferences" (目標 "ResolveReferences" 與它有依存關係):
+工作 "MakeDir"
+工作 "MakeDir" 執行完成。
+正在使用組件 "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 中的 "ResolveComReference" 工作。
+工作 "ResolveComReference"
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(2015,5): error MSB3091: 工作失敗，因為找不到 "AxImp.exe" 或是沒有安裝正確的 Microsoft Windows SDK。這項工作是在登錄機碼 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft SDKs\Windows\v8.0A\WinSDK-NetFx40Tools-x86 的 InstallationFolder 值中指定的位置下，在 "bin" 子目錄中尋找 "AxImp.exe"。您或許可以透過執行下列其中一項作業解決這個問題:  1) 安裝 Microsoft Windows SDK。2) 安裝 Microsoft Visual Studio 2010。3) 以手動方式將前述登錄機碼設定為正確的位置。4) 將正確的位置傳入工作的 "ToolPath" 參數。 [E:\SVNProjects\trunk\Utility\PriceLib\PriceLib.csproj]
+工作 "ResolveComReference" 執行完成 -- 失敗。
+專案 "PriceLib.csproj" 中的目標 "ResolveComReferences" 建置完成 -- 失敗。
+專案 "E:\SVNProjects\trunk\Utility\PriceLib\PriceLib.csproj" 的檔案 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" 中的目標 "_CheckForCompileOutputs" (目標 "_CleanGetCurrentAndPriorFileWrites" 與它有依存關係):
+專案 "PriceLib.csproj" 中的目標 "_CheckForCompileOutputs" 建置完成。
+由於 false 條件，因此已略過工作 "_SGenCheckForOutputs"; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) 評估為 ('Auto' == 'On' or (''!='' and 'Auto' == 'Auto'))。
+專案 "E:\SVNProjects\trunk\Utility\PriceLib\PriceLib.csproj" 的檔案 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" 中的目標 "_CleanGetCurrentAndPriorFileWrites" (目標 "_CleanRecordFileWrites" 與它有依存關係):
+工作 "ReadLinesFromFile"
+工作 "ReadLinesFromFile" 執行完成。
+正在使用組件 "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 中的 "ConvertToAbsolutePath" 工作。
+工作 "ConvertToAbsolutePath"
+工作 "ConvertToAbsolutePath" 執行完成。
+工作 "FindUnderPath"
+  比較路徑為 "E:\SVNProjects\trunk\Utility\PriceLib"。
+工作 "FindUnderPath" 執行完成。
+工作 "FindUnderPath"
+  比較路徑為 "bin\Release\"。
+工作 "FindUnderPath" 執行完成。
+工作 "FindUnderPath"
+  比較路徑為 "obj\Release\"。
+工作 "FindUnderPath" 執行完成。
+工作 "RemoveDuplicates"
+工作 "RemoveDuplicates" 執行完成。
+專案 "PriceLib.csproj" 中的目標 "_CleanGetCurrentAndPriorFileWrites" 建置完成。
+專案 "E:\SVNProjects\trunk\Utility\PriceLib\PriceLib.csproj" 的檔案 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" 中的目標 "_CleanRecordFileWrites" (目標 "CoreBuild" 與它有依存關係):
+工作 "RemoveDuplicates"
+工作 "RemoveDuplicates" 執行完成。
+工作 "MakeDir"
+工作 "MakeDir" 執行完成。
+工作 "WriteLinesToFile"
+工作 "WriteLinesToFile" 執行完成。
+專案 "PriceLib.csproj" 中的目標 "_CleanRecordFileWrites" 建置完成。
+專案 "E:\SVNProjects\trunk\Utility\PriceLib\PriceLib.csproj" (Rebuild 目標) 建置完成 -- 失敗。
+
+工作 "MSBuild" 執行完成 -- 失敗。
+專案 "PCF.sln" 中的目標 "Rebuild" 建置完成 -- 失敗。
+專案 "E:\SVNProjects\trunk\PreMarket\PCF\PCF.sln" (Clean;Rebuild 目標) 建置完成 -- 失敗。
+
+
+建置失敗。
+
+"E:\SVNProjects\trunk\PreMarket\PCF\PCF.sln" (Clean;Rebuild 目標) (1) ->
+"E:\SVNProjects\trunk\Utility\PriceLib\PriceLib.csproj" (Rebuild 目標) (2:2) ->
+(ResolveComReferences 目標) -> 
+  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(2015,5): error MSB3091: 工作失敗，因為找不到 "AxImp.exe" 或是沒有安裝正確的 Microsoft Windows SDK。這項工作是在登錄機碼 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft SDKs\Windows\v8.0A\WinSDK-NetFx40Tools-x86 的 InstallationFolder 值中指定的位置下，在 "bin" 子目錄中尋找 "AxImp.exe"。您或許可以透過執行下列其中一項作業解決這個問題:  1) 安裝 Microsoft Windows SDK。2) 安裝 Microsoft Visual Studio 2010。3) 以手動方式將前述登錄機碼設定為正確的位置。4) 將正確的位置傳入工作的 "ToolPath" 參數。 [E:\SVNProjects\trunk\Utility\PriceLib\PriceLib.csproj]
+
+    0 個警告
+    1 個錯誤
+
+經過時間 00:00:01.01
