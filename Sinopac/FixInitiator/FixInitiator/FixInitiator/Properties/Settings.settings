@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FixInitiator.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Path" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\Projects\Sinopac\FixInitiator\FixInitiator\initiator.cfg</Value>
+    </Setting>
+    <Setting Name="Account" Type="System.String" Scope="User">
+      <Value Profile="(Default)">714023400002</Value>
+    </Setting>
+    <Setting Name="SystemID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">01</Value>
+    </Setting>
+    <Setting Name="SeqNo" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="TradeDate" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">2014-09-28</Value>
+    </Setting>
+    <Setting Name="SQL_Server" Type="System.String" Scope="User">
+      <Value Profile="(Default)">192.168.1.103</Value>
+    </Setting>
+    <Setting Name="SQL_DB" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SEHK</Value>
+    </Setting>
+    <Setting Name="SQL_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sa</Value>
+    </Setting>
+    <Setting Name="SQL_Password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sa</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
