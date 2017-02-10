@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log4net>
+  
+  <appender name="LogToLogFile" type="log4net.Appender.RollingFileAppender">
+    <file value="Logs/" />
+    <staticLogFileName value="false"/>
+    <appendToFile value="true" />
+    <maximumFileSize value="20480KB" />
+    <maxSizeRollBackups value="100" />
+    <rollingStyle value="Date" />
+    <datePattern value="yyyyMMdd.lo\g"/>　<!--log檔案的命名-->    
+    <layout type="log4net.Layout.PatternLayout">
+      <conversionPattern value="%date{yyyy/MM/dd HH:mm:ss} [%p]  [%c{1}] %m%n" />
+    
+      <!--<conversionPattern value="[%date]%-5level %logger (%file:%line) - %message%newline" />-->
+    </layout>
+  </appender>
+
+  <root>
+    <!--<level value="DEBUG" />-->
+    <level value="INFO" />
+    <appender-ref ref="LogToLogFile" />
+  </root>
+</log4net>
