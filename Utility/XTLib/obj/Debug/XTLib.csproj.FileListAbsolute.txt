@@ -1,0 +1,13 @@
+D:\Projects\ETF\XTLib\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\ETF\XTLib\bin\Debug\SorApi.dll
+D:\Projects\ETF\XTLib\bin\Debug\libns.dll
+D:\Projects\ETF\XTLib\bin\Debug\XTLib.dll
+D:\Projects\ETF\XTLib\bin\Debug\XTLib.pdb
+D:\Projects\ETF\XTLib\obj\Debug\XTLib.dll
+D:\Projects\ETF\XTLib\obj\Debug\XTLib.pdb
+E:\SVNProjects\trunk\Utility\XTLib\bin\Debug\SorApi.dll
+E:\SVNProjects\trunk\Utility\XTLib\bin\Debug\libns.dll
+E:\SVNProjects\trunk\Utility\XTLib\bin\Debug\XTLib.dll
+E:\SVNProjects\trunk\Utility\XTLib\bin\Debug\XTLib.pdb
+E:\SVNProjects\trunk\Utility\XTLib\obj\Debug\XTLib.dll
+E:\SVNProjects\trunk\Utility\XTLib\obj\Debug\XTLib.pdb
