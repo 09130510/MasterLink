@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2506BCAC-6F1A-4401-9896-583EB20FBAE6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PATSOrder</RootNamespace>
+    <AssemblyName>PATSOrder</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+    <PublishUrl>發行\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>1467801655_purchase_order.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dapper, Version=1.50.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.1.50.2\lib\net451\Dapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="INIFileParser, Version=2.3.0.0, Culture=neutral, PublicKeyToken=79af7b307b65cf3c, processorArchitecture=MSIL">
+      <HintPath>..\packages\ini-parser.2.3.0\lib\net20\INIFileParser.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.5\lib\net45-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ObjectListView, Version=2.9.1.25410, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4, processorArchitecture=MSIL">
+      <HintPath>..\packages\ObjectListView.Official.2.9.2-alpha2\lib\net20\ObjectListView.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WeifenLuo.WinFormsUI.Docking, Version=2.11.0.0, Culture=neutral, PublicKeyToken=5cded1a1a0a7b481, processorArchitecture=MSIL">
+      <HintPath>..\packages\DockPanelSuite.2.11.0-beta1\lib\net40\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\AccountInfo.cs" />
+    <Compile Include="Class\ProductInfo.cs" />
+    <Compile Include="Class\Row.cs" />
+    <Compile Include="Class\Tick.cs" />
+    <Compile Include="Class\View.cs" />
+    <Compile Include="Form\frmSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmSetting.Designer.cs">
+      <DependentUpon>frmSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmLog.Designer.cs">
+      <DependentUpon>frmLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmDealReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmDealReport.Designer.cs">
+      <DependentUpon>frmDealReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmCancelReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmCancelReport.Designer.cs">
+      <DependentUpon>frmCancelReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmErrReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmErrReport.Designer.cs">
+      <DependentUpon>frmErrReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmOrderSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmOrderSetting.Designer.cs">
+      <DependentUpon>frmOrderSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmTick.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmTick.Designer.cs">
+      <DependentUpon>frmTick.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmOrderReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmOrderReport.Designer.cs">
+      <DependentUpon>frmOrderReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmProductFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmProductFilter.Designer.cs">
+      <DependentUpon>frmProductFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmSummary.Designer.cs">
+      <DependentUpon>frmSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility\AlertBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utility\AlertBox.Designer.cs">
+      <DependentUpon>AlertBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\Attribute.cs" />
+    <Compile Include="Utility\Base.cs" />
+    <Compile Include="Utility\BindableBase.cs" />
+    <Compile Include="Utility\Enum.cs" />
+    <Compile Include="Utility\Extension.cs" />
+    <Compile Include="Utility\Center.cs" />
+    <Compile Include="Utility\BeforeInvoker.cs" />
+    <Compile Include="Utility\Util.cs" />
+    <EmbeddedResource Include="Form\frmCancelReport.resx">
+      <DependentUpon>frmCancelReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmDealReport.resx">
+      <DependentUpon>frmDealReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmErrReport.resx">
+      <DependentUpon>frmErrReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmLog.resx">
+      <DependentUpon>frmLog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmOrderReport.resx">
+      <DependentUpon>frmOrderReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmOrderSetting.resx">
+      <DependentUpon>frmOrderSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmProductFilter.resx">
+      <DependentUpon>frmProductFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmSetting.resx">
+      <DependentUpon>frmSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmSummary.resx">
+      <DependentUpon>frmSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmTick.resx">
+      <DependentUpon>frmTick.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Utility\AlertBox.resx">
+      <DependentUpon>AlertBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Config.ini">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Utility\2015\NuComponent\SourceCell\SourceCell.csproj">
+      <Project>{1fb130f5-a8f4-4920-95aa-58289393fb37}</Project>
+      <Name>SourceCell</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Utility\2015\NuComponent\SourceGrid_4_30_src\SourceGrid\SourceGrid.csproj">
+      <Project>{2A5A1657-DBA8-4117-8E2A-9F1236ACE9E2}</Project>
+      <Name>SourceGrid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Utility\PriceLib\PriceLib.csproj">
+      <Project>{0F9B64B4-DDA6-45F1-9010-B60B8CE617D2}</Project>
+      <Name>PriceLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1451371729_stock_alignment-centered-vertically.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1452261698_stock_sort-descending.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1452261702_stock_sort-ascending.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1467801655_purchase_order.ico" />
+    <None Include="Resources\1469092136_connect.ico" />
+    <None Include="Resources\1469092096_disconnect.ico" />
+    <None Include="Resources\1468478122_stock_filter-data-by-criteria.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
