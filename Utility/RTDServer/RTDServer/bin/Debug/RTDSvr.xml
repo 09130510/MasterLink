@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RTDSvr</name>
+    </assembly>
+    <members>
+        <member name="M:RTDSvr.ExcelAddIn.GetSummary(System.String,System.String,System.String)">
+            <summary>
+            Summary
+            </summary>
+            <param name="Account"></param>
+            <param name="ComID"></param>
+            <param name="Item"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,15 @@
+D:\Projects\Utility\RTDServer\RTDSvr\bin\Debug\ExcelAddIn.dna
+D:\Projects\Utility\RTDServer\RTDSvr\bin\Debug\RTDSvr.XML
+D:\Projects\Utility\RTDServer\RTDSvr\bin\Debug\RTDSvr.dll
+D:\Projects\Utility\RTDServer\RTDSvr\bin\Debug\RTDSvr.pdb
+D:\Projects\Utility\RTDServer\RTDSvr\bin\Debug\System.Reactive.Core.dll
+D:\Projects\Utility\RTDServer\RTDSvr\bin\Debug\System.Reactive.Interfaces.dll
+D:\Projects\Utility\RTDServer\RTDSvr\bin\Debug\System.Reactive.Linq.dll
+D:\Projects\Utility\RTDServer\RTDSvr\bin\Debug\System.Reactive.PlatformServices.dll
+D:\Projects\Utility\RTDServer\RTDSvr\bin\Debug\System.Reactive.Core.xml
+D:\Projects\Utility\RTDServer\RTDSvr\bin\Debug\System.Reactive.Interfaces.xml
+D:\Projects\Utility\RTDServer\RTDSvr\bin\Debug\System.Reactive.Linq.xml
+D:\Projects\Utility\RTDServer\RTDSvr\bin\Debug\System.Reactive.PlatformServices.xml
+D:\Projects\Utility\RTDServer\RTDSvr\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Utility\RTDServer\RTDSvr\obj\Debug\RTDSvr.dll
+D:\Projects\Utility\RTDServer\RTDSvr\obj\Debug\RTDSvr.pdb
