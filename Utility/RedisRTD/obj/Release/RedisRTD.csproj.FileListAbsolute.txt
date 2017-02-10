@@ -1,0 +1,13 @@
+D:\Projects\ETF\Pricing\RedisRTD\bin\Release\RedisRTD.dll
+D:\Projects\ETF\Pricing\RedisRTD\bin\Release\RedisRTD.pdb
+D:\Projects\ETF\Pricing\RedisRTD\bin\Release\ServiceStack.Common.dll
+D:\Projects\ETF\Pricing\RedisRTD\bin\Release\ServiceStack.Interfaces.dll
+D:\Projects\ETF\Pricing\RedisRTD\bin\Release\ServiceStack.Redis.dll
+D:\Projects\ETF\Pricing\RedisRTD\bin\Release\ServiceStack.Text.dll
+D:\Projects\ETF\Pricing\RedisRTD\bin\Release\ServiceStack.Common.xml
+D:\Projects\ETF\Pricing\RedisRTD\bin\Release\ServiceStack.Interfaces.xml
+D:\Projects\ETF\Pricing\RedisRTD\bin\Release\ServiceStack.Redis.xml
+D:\Projects\ETF\Pricing\RedisRTD\bin\Release\ServiceStack.Text.xml
+D:\Projects\ETF\Pricing\RedisRTD\obj\Release\ResolveAssemblyReference.cache
+D:\Projects\ETF\Pricing\RedisRTD\obj\Release\RedisRTD.dll
+D:\Projects\ETF\Pricing\RedisRTD\obj\Release\RedisRTD.pdb
